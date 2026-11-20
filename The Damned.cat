@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue id="66fa-5ead-b881-29ba" name="The Damned" revision="2" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="2" library="false" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="66fa-5ead-b881-29ba" name="The Damned" revision="3" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="3" library="false">
   <selectionEntries>
     <selectionEntry id="fea1-b729-fb6f-8369" name="Hierophant" type="model" hidden="false" page="80" publicationId="a21c-395e-03ec-6dcd">
       <categoryLinks>
@@ -373,9 +373,6 @@ Unholy Summons: After resolving an attack that inflicts at least one Strike, for
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="9521-bdbe-2fb1-0b33" name="Unique weapons" hidden="false">
-          <constraints>
-            <constraint id="c27e-f143-50e4-a84c" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="c768-72a8-a21d-5186" name="Accolon’s Blade" type="selectionEntry" targetId="6c63-d61e-780f-0690" hidden="false" />
             <entryLink id="c5b4-b5bb-c3b0-4213" name="His Infernal Blade" type="selectionEntry" targetId="5b83-9b46-c83d-0795" hidden="false" />
@@ -626,9 +623,6 @@ Unholy Summons: After resolving an attack that inflicts at least one Strike, for
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="17d3-16c1-fc2b-00b6" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="295b-a199-e4fb-c426" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="84d7-a8ce-4ea5-a094" name="Book of Shadows" type="selectionEntry" targetId="5402-21a0-e326-5f4d" hidden="false" />
             <entryLink id="0b1c-45d6-eaaa-cae4" name="Dread Diplomacy" type="selectionEntry" targetId="639a-0807-c700-388b" hidden="false" />
@@ -923,9 +917,6 @@ Unholy Summons: After resolving an attack that inflicts at least one Strike, for
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="a805-2f24-2cab-ac32" name="Unique weapons" hidden="false">
-          <constraints>
-            <constraint id="afb9-8eff-41fb-3181" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="eab7-4221-81cd-9922" name="Accolon’s Blade" type="selectionEntry" targetId="6c63-d61e-780f-0690" hidden="false" />
             <entryLink id="15fe-1a59-961a-1b18" name="His Infernal Blade" type="selectionEntry" targetId="5b83-9b46-c83d-0795" hidden="false" />
@@ -1176,9 +1167,6 @@ Unholy Summons: After resolving an attack that inflicts at least one Strike, for
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="abb9-2e9b-4725-c27d" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="fdaa-6bf4-8c1f-5e00" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="d8bf-6e6b-e06b-a3a5" name="Book of Shadows" type="selectionEntry" targetId="5402-21a0-e326-5f4d" hidden="false" />
             <entryLink id="0c12-30f1-8f05-abc9" name="The Thirteenth Key" type="selectionEntry" targetId="280e-567b-0d9c-8da0" hidden="false" />
@@ -1479,9 +1467,6 @@ Destructive: After resolving REFLEX or DEFENSE, each unblocked Critical Success 
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="c7e9-b325-268b-67a5" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="c3ea-34ea-9d27-9290" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="c30e-078b-616e-7549" name="The Thirteenth Key" type="selectionEntry" targetId="280e-567b-0d9c-8da0" hidden="false" />
           </entryLinks>

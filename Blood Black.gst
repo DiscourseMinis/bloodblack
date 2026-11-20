@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<gameSystem id="1029-fba5-6af2-96d8" name="Blood Black" revision="2" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" id="1029-fba5-6af2-96d8" name="Blood Black" revision="3" battleScribeVersion="2.03">
   <costTypes>
     <costType id="f178-88bc-7258-0c88" name="Influence" defaultCostLimit="700" hidden="false" />
   </costTypes>

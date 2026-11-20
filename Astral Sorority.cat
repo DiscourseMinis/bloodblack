@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue id="5081-58e5-4e6b-16ba" name="Astral Sorority" revision="2" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="2" library="false" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="5081-58e5-4e6b-16ba" name="Astral Sorority" revision="3" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="3" library="false">
   <selectionEntries>
     <selectionEntry id="505a-22f0-bafb-5f8f" name="Hierophant" type="model" hidden="false" page="80" publicationId="a21c-395e-03ec-6dcd">
       <categoryLinks>
@@ -388,9 +388,6 @@ Draw the Thread: When this Character successfully casts PHANTOM RAZOR, resolve t
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="e098-3b44-5c60-55a2" name="Unique weapons" hidden="false">
-          <constraints>
-            <constraint id="3bb9-26ce-922f-b494" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="e3d1-d90b-ce0d-2258" name="Accolon’s Blade" type="selectionEntry" targetId="8fc1-77a2-a0ec-9bf4" hidden="false" />
           </entryLinks>
@@ -672,9 +669,6 @@ Draw the Thread: When this Character successfully casts PHANTOM RAZOR, resolve t
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="96cc-97df-cc75-1499" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="fb2b-83ac-1709-3fea" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="fe75-bef2-0bc1-7f02" name="Book of Shadows" type="selectionEntry" targetId="7a18-9bb8-5aab-4af5" hidden="false" />
             <entryLink id="ba07-83a5-c910-8306" name="Dread Diplomacy" type="selectionEntry" targetId="1043-9639-ff38-30b9" hidden="false" />
@@ -1062,9 +1056,6 @@ Draw the Thread: When this Character successfully casts PHANTOM RAZOR, resolve t
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="c792-918a-fff0-207e" name="Unique weapons" hidden="false">
-          <constraints>
-            <constraint id="aa80-3f33-cc99-97da" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="f3d6-31dc-3194-de8a" name="Accolon’s Blade" type="selectionEntry" targetId="8fc1-77a2-a0ec-9bf4" hidden="false" />
           </entryLinks>
@@ -1346,9 +1337,6 @@ Draw the Thread: When this Character successfully casts PHANTOM RAZOR, resolve t
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="e1f6-97da-2265-6bf0" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="3b08-fb4c-8b48-224d" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="57a6-1a4d-b1b5-eb95" name="Book of Shadows" type="selectionEntry" targetId="7a18-9bb8-5aab-4af5" hidden="false" />
             <entryLink id="0aee-dac0-d0a1-ca8b" name="Clairvoyance" type="selectionEntry" targetId="2144-4479-149b-bb0f" hidden="false" />
@@ -1655,9 +1643,6 @@ Draw the Thread: When this Character successfully casts PHANTOM RAZOR, resolve t
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="2e10-fb4f-4559-b1f2" name="Unique weapons" hidden="false">
-          <constraints>
-            <constraint id="af02-aae0-6be3-1774" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="54e8-781e-1431-639a" name="Accolon’s Blade" type="selectionEntry" targetId="8fc1-77a2-a0ec-9bf4" hidden="false" />
           </entryLinks>
@@ -1939,9 +1924,6 @@ Draw the Thread: When this Character successfully casts PHANTOM RAZOR, resolve t
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="8f25-2fdf-b426-5e2a" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="0c1f-8696-12e8-b576" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="2ce9-fd05-cea7-dbd4" name="Book of Shadows" type="selectionEntry" targetId="7a18-9bb8-5aab-4af5" hidden="false" />
             <entryLink id="c0e3-ac1e-6999-8783" name="Clairvoyance" type="selectionEntry" targetId="2144-4479-149b-bb0f" hidden="false" />

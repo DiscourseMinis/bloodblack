@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue id="b262-c383-977b-e654" name="Midnight Aristocracy" revision="2" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="2" library="false" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="b262-c383-977b-e654" name="Midnight Aristocracy" revision="3" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="3" library="false">
   <selectionEntries>
     <selectionEntry id="e419-cc16-31c1-51c0" name="Royal" type="model" hidden="false" page="58" publicationId="a21c-395e-03ec-6dcd">
       <categoryLinks>
@@ -523,9 +523,6 @@ Braced: When an enemy makes a CHARGE ATTACK against this Character, this Charact
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="3494-fc92-0ac4-963d" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="d068-e9f7-ed8a-acc3" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="f3ec-4f3f-95a6-14f9" name="Heart Shaped Phylactery" type="selectionEntry" targetId="8830-8019-cb78-1833" hidden="false" />
             <entryLink id="1c3d-7358-ce01-ee5a" name="Golden Scepter" type="selectionEntry" targetId="1791-b04d-fba8-0556" hidden="false" />
@@ -1120,9 +1117,6 @@ Braced: When an enemy makes a CHARGE ATTACK against this Character, this Charact
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="5451-c182-5b10-3d0d" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="ae7a-e205-6d01-fd87" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="a3fd-d169-23e2-986c" name="Heart Shaped Phylactery" type="selectionEntry" targetId="8830-8019-cb78-1833" hidden="false" />
             <entryLink id="066f-e759-bb3a-de54" name="Golden Scepter" type="selectionEntry" targetId="1791-b04d-fba8-0556" hidden="false" />
@@ -1663,9 +1657,6 @@ Braced: When an enemy makes a CHARGE ATTACK against this Character, this Charact
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="26a1-8b7f-fcba-5d88" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="20d5-ff6e-2a2d-4093" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="d8a5-d8f7-077d-765d" name="Heart Shaped Phylactery" type="selectionEntry" targetId="8830-8019-cb78-1833" hidden="false" />
             <entryLink id="24e5-4d59-04b8-1a09" name="Golden Scepter" type="selectionEntry" targetId="1791-b04d-fba8-0556" hidden="false" />
@@ -2206,9 +2197,6 @@ Braced: When an enemy makes a CHARGE ATTACK against this Character, this Charact
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="3a38-9054-ef56-d67c" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="91a7-aaa5-2cfd-df1b" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="874d-8b03-7140-d6ab" name="Heart Shaped Phylactery" type="selectionEntry" targetId="8830-8019-cb78-1833" hidden="false" />
             <entryLink id="1d89-d21b-9573-32a6" name="Golden Scepter" type="selectionEntry" targetId="1791-b04d-fba8-0556" hidden="false" />

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue id="5d4b-9f84-2573-bbd5" name="New Fangs" revision="2" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="2" library="false" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="5d4b-9f84-2573-bbd5" name="New Fangs" revision="3" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="3" library="false">
   <selectionEntries>
     <selectionEntry id="4af9-8a31-de55-3522" name="Royal" type="model" hidden="false" page="58" publicationId="a21c-395e-03ec-6dcd">
       <categoryLinks>
@@ -601,9 +601,6 @@ Smiley: Critical Hits with this weapon may instead inflict [MORTAL] [MORTAL] POT
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="91d5-badd-cb91-a8aa" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="62dc-f5a9-89ee-72fd" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="5f30-02d8-d204-d1ef" name="Heart Shaped Phylactery" type="selectionEntry" targetId="183f-37a7-aef8-67e7" hidden="false" />
             <entryLink id="f3a4-5a17-bfc0-e1da" name="Golden Scepter" type="selectionEntry" targetId="62d8-ccda-fb07-bc90" hidden="false" />
@@ -1275,9 +1272,6 @@ Smiley: Critical Hits with this weapon may instead inflict [MORTAL] [MORTAL] POT
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="bd57-65b7-343c-17b2" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="89e5-f036-a06e-2f6e" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="2cf9-11e3-488f-bd71" name="Heart Shaped Phylactery" type="selectionEntry" targetId="183f-37a7-aef8-67e7" hidden="false" />
             <entryLink id="ef60-18bb-af7a-ba6c" name="Golden Scepter" type="selectionEntry" targetId="62d8-ccda-fb07-bc90" hidden="false" />
@@ -1895,9 +1889,6 @@ Smiley: Critical Hits with this weapon may instead inflict [MORTAL] [MORTAL] POT
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="b151-c1bb-b123-9b95" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="302f-7353-bace-ce17" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="5d82-0186-3aba-2a7a" name="Heart Shaped Phylactery" type="selectionEntry" targetId="183f-37a7-aef8-67e7" hidden="false" />
             <entryLink id="0291-1197-8f77-9f5e" name="Golden Scepter" type="selectionEntry" targetId="62d8-ccda-fb07-bc90" hidden="false" />
@@ -2515,9 +2506,6 @@ Smiley: Critical Hits with this weapon may instead inflict [MORTAL] [MORTAL] POT
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="0cd2-23de-f7b7-9f15" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="be98-96e5-6708-09b2" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="878b-2d43-3390-3878" name="Heart Shaped Phylactery" type="selectionEntry" targetId="183f-37a7-aef8-67e7" hidden="false" />
             <entryLink id="2ba8-c8f5-3907-8aa7" name="Golden Scepter" type="selectionEntry" targetId="62d8-ccda-fb07-bc90" hidden="false" />
@@ -3135,9 +3123,6 @@ Smiley: Critical Hits with this weapon may instead inflict [MORTAL] [MORTAL] POT
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="1dbf-8035-aeb4-1fc2" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="3608-2192-78e5-04c9" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="d569-01cd-98b3-ea99" name="Heart Shaped Phylactery" type="selectionEntry" targetId="183f-37a7-aef8-67e7" hidden="false" />
             <entryLink id="28f5-e94a-36c7-fa31" name="Golden Scepter" type="selectionEntry" targetId="62d8-ccda-fb07-bc90" hidden="false" />

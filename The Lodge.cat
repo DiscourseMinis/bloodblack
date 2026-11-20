@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue id="1b1f-bfc9-f5fc-d2cd" name="The Lodge" revision="2" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="2" library="false" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="1b1f-bfc9-f5fc-d2cd" name="The Lodge" revision="3" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="3" library="false">
   <selectionEntries>
     <selectionEntry id="b247-feeb-3d2d-f4ca" name="Hierophant" type="model" hidden="false" page="80" publicationId="a21c-395e-03ec-6dcd">
       <categoryLinks>
@@ -374,9 +374,6 @@ Reliable: When making an attack with this weapon, you may reroll each failed att
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="bfed-ff7e-ba04-8675" name="Unique weapons" hidden="false">
-          <constraints>
-            <constraint id="3d68-1461-be4c-7be3" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="e820-5699-ecf6-9949" name="Accolon’s Blade" type="selectionEntry" targetId="f7ea-f3ae-0655-8b1d" hidden="false" />
             <entryLink id="6568-b486-7551-ed4b" name="The Founder’s Revolver" type="selectionEntry" targetId="d60f-ffe2-5db5-4ea7" hidden="false" />
@@ -595,9 +592,6 @@ Reliable: When making an attack with this weapon, you may reroll each failed att
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="877e-e59c-0fe5-753f" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="1cba-5496-7f97-bb0c" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="0cb0-cd0b-2aef-be4a" name="Book of Shadows" type="selectionEntry" targetId="b595-480e-94ac-73f1" hidden="false" />
             <entryLink id="ef5d-c70d-9f07-9b34" name="Dread Diplomacy" type="selectionEntry" targetId="ef73-3daa-5544-aa60" hidden="false" />
@@ -893,9 +887,6 @@ Reliable: When making an attack with this weapon, you may reroll each failed att
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="87a6-96b6-ad10-b2d7" name="Unique weapons" hidden="false">
-          <constraints>
-            <constraint id="dba8-ff88-c805-fff3" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="fb80-05bc-4398-55a7" name="Accolon’s Blade" type="selectionEntry" targetId="f7ea-f3ae-0655-8b1d" hidden="false" />
             <entryLink id="7da4-9a44-9a74-bdee" name="The Founder’s Revolver" type="selectionEntry" targetId="d60f-ffe2-5db5-4ea7" hidden="false" />
@@ -1114,9 +1105,6 @@ Reliable: When making an attack with this weapon, you may reroll each failed att
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="78f0-0e0a-3fc2-aff6" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="b77a-99a1-a931-5d9f" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="a6b5-168d-8bf3-6888" name="Book of Shadows" type="selectionEntry" targetId="b595-480e-94ac-73f1" hidden="false" />
             <entryLink id="adea-67ff-6773-b540" name="The Attendance Book" type="selectionEntry" targetId="0232-4148-08d8-97a7" hidden="false" />
@@ -1455,9 +1443,6 @@ Reliable: When making an attack with this weapon, you may reroll each failed att
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="d318-2ce3-aa73-6c70" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="9977-00f8-9dc6-3574" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="71d6-2508-d690-78cb" name="The Attendance Book" type="selectionEntry" targetId="0232-4148-08d8-97a7" hidden="false" />
           </entryLinks>
@@ -1789,9 +1774,6 @@ Reliable: When making an attack with this weapon, you may reroll each failed att
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="073e-d412-0af7-1c17" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="c7a1-2552-b9c0-e604" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="7781-8e29-3ad1-1459" name="The Attendance Book" type="selectionEntry" targetId="0232-4148-08d8-97a7" hidden="false" />
           </entryLinks>

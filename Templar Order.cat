@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue id="d13f-ec41-182d-4fb5" name="Templar Order" revision="2" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="2" library="false" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="d13f-ec41-182d-4fb5" name="Templar Order" revision="3" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="3" library="false">
   <selectionEntries>
     <selectionEntry id="810b-f05e-3615-712a" name="Operator" type="model" hidden="false" page="36" publicationId="a21c-395e-03ec-6dcd">
       <categoryLinks>
@@ -14,7 +14,7 @@
       </constraints>
       <rules>
         <rule id="cf0b-39f7-0050-c0a8" name="Templar Order" hidden="false">
-          <description>- May include TEMPLAR ORDER Characters and Assets. - A single OPERATOR may take one RELIC.</description>
+          <description>- May include TEMPLAR ORDER Characters and Assets. - The OPERATOR must take exactly one RELIC.</description>
         </rule>
       </rules>
       <profiles>
@@ -1434,24 +1434,28 @@ Explosive Death: When this character dies, roll a D10. On a 1, deal + [FIRE] [FI
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="5e63-53dd-32c2-4c8d" name="Unique weapons" hidden="false">
-          <constraints>
-            <constraint id="74eb-3640-f72a-7c7b" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="68db-2368-6fcf-a2e6" name="The Judge" type="selectionEntry" targetId="d4cc-b623-c8ff-b29d" hidden="false" />
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="0925-0862-f214-d7b1" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="cdc3-742e-9104-9a4c" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="e5eb-8c2b-f673-f7ab" name="Miraculous Intervenion" type="selectionEntry" targetId="7b8b-e63e-30a7-89c3" hidden="false" />
-            <entryLink id="897e-ae6d-04f7-a8a4" name="Thorn of the Crown" type="selectionEntry" targetId="d554-ffaf-4e26-e74f" hidden="false" />
-            <entryLink id="0503-b266-8187-79af" name="Piece of the True Cross" type="selectionEntry" targetId="6dd9-66dd-4668-d089" hidden="false" />
-            <entryLink id="230c-b03b-bdb3-a9a1" name="Shaft of the Spear" type="selectionEntry" targetId="a215-322c-e9bd-8026" hidden="false" />
-            <entryLink id="4dc2-d7da-f4e3-65c8" name="Crook of the Saint" type="selectionEntry" targetId="56b1-44d8-3568-29d5" hidden="false" />
           </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="b07a-20ec-af3a-49c1" name="Relics" hidden="false">
+              <constraints>
+                <constraint id="af3a-a76c-8895-dd97" type="min" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                <constraint id="904a-01a4-cc9d-c513" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+              <entryLinks>
+                <entryLink id="897e-ae6d-04f7-a8a4" name="Thorn of the Crown" type="selectionEntry" targetId="d554-ffaf-4e26-e74f" hidden="false" />
+                <entryLink id="0503-b266-8187-79af" name="Piece of the True Cross" type="selectionEntry" targetId="6dd9-66dd-4668-d089" hidden="false" />
+                <entryLink id="230c-b03b-bdb3-a9a1" name="Shaft of the Spear" type="selectionEntry" targetId="a215-322c-e9bd-8026" hidden="false" />
+                <entryLink id="4dc2-d7da-f4e3-65c8" name="Crook of the Saint" type="selectionEntry" targetId="56b1-44d8-3568-29d5" hidden="false" />
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
@@ -2928,17 +2932,11 @@ Explosive Death: When this character dies, roll a D10. On a 1, deal + [FIRE] [FI
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="088f-41c5-f61e-a35d" name="Unique weapons" hidden="false">
-          <constraints>
-            <constraint id="848c-2c2b-c66a-f81c" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="91af-30ea-8fea-1ce4" name="The Judge" type="selectionEntry" targetId="d4cc-b623-c8ff-b29d" hidden="false" />
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="258b-c162-88fd-bba4" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="dba4-db1b-3f03-ffb2" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="80cf-529d-8771-7320" name="Miraculous Intervenion" type="selectionEntry" targetId="7b8b-e63e-30a7-89c3" hidden="false" />
           </entryLinks>
@@ -4369,17 +4367,11 @@ Explosive Death: When this character dies, roll a D10. On a 1, deal + [FIRE] [FI
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="7633-1475-05f6-4634" name="Unique weapons" hidden="false">
-          <constraints>
-            <constraint id="cc3b-13be-f05b-9aad" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="434a-9e62-e174-d1c6" name="The Judge" type="selectionEntry" targetId="d4cc-b623-c8ff-b29d" hidden="false" />
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="378d-15a6-e04d-2bd6" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="c0e4-8a6a-267f-e7ad" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="2adf-b45f-2c86-8e94" name="Miraculous Intervenion" type="selectionEntry" targetId="7b8b-e63e-30a7-89c3" hidden="false" />
           </entryLinks>
@@ -5862,17 +5854,11 @@ Explosive Death: When this character dies, roll a D10. On a 1, deal + [FIRE] [FI
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="cadf-364f-e675-c3db" name="Unique weapons" hidden="false">
-          <constraints>
-            <constraint id="b67a-d9aa-eef6-b7f2" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="aba4-99c3-a52b-04f9" name="The Judge" type="selectionEntry" targetId="d4cc-b623-c8ff-b29d" hidden="false" />
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="ab94-5fa7-1869-8ca6" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="96c5-e5d2-e471-d83f" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="8a3d-cdd2-754f-ae22" name="Miraculous Intervenion" type="selectionEntry" targetId="7b8b-e63e-30a7-89c3" hidden="false" />
           </entryLinks>
@@ -7361,17 +7347,11 @@ Explosive Death: When this character dies, roll a D10. On a 1, deal + [FIRE] [FI
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="d537-d06a-c6c8-71ef" name="Unique weapons" hidden="false">
-          <constraints>
-            <constraint id="e788-cd56-e7da-4b27" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="9cd2-fbd1-a41c-89d9" name="The Judge" type="selectionEntry" targetId="d4cc-b623-c8ff-b29d" hidden="false" />
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="64b7-125f-6e16-5297" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="8781-7d75-5c6c-bcda" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="eca0-e3c6-4045-a3d6" name="Miraculous Intervenion" type="selectionEntry" targetId="7b8b-e63e-30a7-89c3" hidden="false" />
           </entryLinks>
@@ -8861,17 +8841,11 @@ Explosive Death: When this character dies, roll a D10. On a 1, deal + [FIRE] [FI
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="4c1f-af75-db48-19e9" name="Unique weapons" hidden="false">
-          <constraints>
-            <constraint id="032f-1489-c568-8188" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="0008-bc3e-3b66-6229" name="The Judge" type="selectionEntry" targetId="d4cc-b623-c8ff-b29d" hidden="false" />
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="5a6b-387e-c8ef-df46" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="f270-b22d-db55-8cc8" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="5b28-bc55-9309-8750" name="Miraculous Intervenion" type="selectionEntry" targetId="7b8b-e63e-30a7-89c3" hidden="false" />
           </entryLinks>
@@ -9479,9 +9453,6 @@ Indirect: Can target area attack on terrain.</characteristic>
           </selectionEntries>
         </selectionEntryGroup>
         <selectionEntryGroup id="0ce9-d9dd-5ad4-3494" name="Unique assets" hidden="false">
-          <constraints>
-            <constraint id="0e5d-c0c6-c520-954c" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
-          </constraints>
           <entryLinks>
             <entryLink id="1438-4e54-bc5a-d490" name="Miraculous Intervenion" type="selectionEntry" targetId="7b8b-e63e-30a7-89c3" hidden="false" />
           </entryLinks>

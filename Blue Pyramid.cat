@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue id="40ec-5031-5360-d556" name="Blue Pyramid" revision="2" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="2" library="false" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="40ec-5031-5360-d556" name="Blue Pyramid" revision="3" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="3" library="false">
   <selectionEntries>
     <selectionEntry id="e700-16a7-4754-6cf4" name="Operator" type="model" hidden="false" page="36" publicationId="a21c-395e-03ec-6dcd">
       <categoryLinks>
