@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="40ec-5031-5360-d556" name="Blue Pyramid" revision="3" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="3" library="false">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="40ec-5031-5360-d556" name="Blue Pyramid" revision="4" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="3" library="false">
   <selectionEntries>
     <selectionEntry id="e700-16a7-4754-6cf4" name="Operator" type="model" hidden="false" page="36" publicationId="a21c-395e-03ec-6dcd">
       <categoryLinks>
@@ -325,12 +325,78 @@ Indirect: Can target area attack on terrain.</characteristic>
               <costs>
                 <cost name="Influence" typeId="f178-88bc-7258-0c88" value="16" />
               </costs>
+              <selectionEntries>
+                <selectionEntry id="4d9b-2e4c-c879-e39a" name="Laser Sight" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="6" />
+                  </costs>
+                  <constraints>
+                    <constraint id="d26a-af5e-5d67-6c67" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="3f49-bd93-aefb-14a3" name="Laser Sight" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">This weapon gains +1 Velocity.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="5895-81f5-71cc-43e2" name="Compensator" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+                  </costs>
+                  <constraints>
+                    <constraint id="4d87-24ea-2e8c-370f" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="c943-726f-0e95-e3ac" name="Compensator" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">When attacking with this weapon, count pairs of dice showing the same number in the attack roll. If the attack scores at least one unblocked strike, add an additional [MORTAL] to the total damage for each matching pair of dice (before applying RESILIENCE).</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="6684-1150-6798-e176" name="Scope" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="6" />
+                  </costs>
+                  <constraints>
+                    <constraint id="8f1f-eb6d-049e-c53e" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="f0c6-7c2a-7125-db54" name="Scope" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">When this weapon’s Ranged Attack benefits from Focus, after rolling the initial attack dice, you may change one ordinary success into a Critical Success. Roll its additional die and resolve any further Critical Successes normally.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="7ba2-70f9-f9e0-c1ff" name="Infra-Frequency Rounds" type="upgrade" hidden="false" page="49" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+                  </costs>
+                  <constraints>
+                    <constraint id="b49a-29fc-d431-b786" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="6e63-95a6-6124-a4e1" name="Infra-Frequency Rounds" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="49" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Advanced. Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">Change this weapons Potency to [TRANSCENDENT].</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
               <profiles>
                 <profile id="6c10-aef8-0b91-7d79" name="Precision Rifle" typeId="d1f1-5d47-a755-8b5f" typeName="Weapon" hidden="false" page="45" publicationId="a21c-395e-03ec-6dcd">
                   <characteristics>
                     <characteristic name="Velocity" typeId="f173-8d0e-3d35-61a4">+0</characteristic>
                     <characteristic name="Potency" typeId="eca4-f354-09c4-9fb7">MORTAL + MORTAL</characteristic>
-                    <characteristic name="Traits and range" typeId="5aca-a7b8-a2de-08fa">Advanced. Ranged.</characteristic>
+                    <characteristic name="Traits and range" typeId="5aca-a7b8-a2de-08fa">Advanced. Firearm. Ranged.</characteristic>
                     <characteristic name="Special rules" typeId="8c35-8c96-b5da-3d94">High Caliber: Criticals rolled by this weapon cannot be blocked by a successful Reflex roll.</characteristic>
                   </characteristics>
                 </profile>
@@ -1788,12 +1854,78 @@ Indirect: Can target area attack on terrain.</characteristic>
               <costs>
                 <cost name="Influence" typeId="f178-88bc-7258-0c88" value="16" />
               </costs>
+              <selectionEntries>
+                <selectionEntry id="644d-dffe-a05f-2c32" name="Laser Sight" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="6" />
+                  </costs>
+                  <constraints>
+                    <constraint id="8340-9d87-b45a-5803" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="a412-1ac4-5fc2-ad81" name="Laser Sight" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">This weapon gains +1 Velocity.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="8a72-bdb2-0c1f-ad2e" name="Compensator" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+                  </costs>
+                  <constraints>
+                    <constraint id="404f-826e-3fea-3fb0" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="39cc-4af2-b6a3-664b" name="Compensator" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">When attacking with this weapon, count pairs of dice showing the same number in the attack roll. If the attack scores at least one unblocked strike, add an additional [MORTAL] to the total damage for each matching pair of dice (before applying RESILIENCE).</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="e838-0184-fe4c-ed8b" name="Scope" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="6" />
+                  </costs>
+                  <constraints>
+                    <constraint id="d6d5-56bf-045d-4e01" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="2d16-7ac1-89f7-c13e" name="Scope" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">When this weapon’s Ranged Attack benefits from Focus, after rolling the initial attack dice, you may change one ordinary success into a Critical Success. Roll its additional die and resolve any further Critical Successes normally.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="c7d2-ccdc-6fa5-8ffe" name="Infra-Frequency Rounds" type="upgrade" hidden="false" page="49" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+                  </costs>
+                  <constraints>
+                    <constraint id="41ee-1159-56c5-7ca6" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="7076-a128-922a-ff13" name="Infra-Frequency Rounds" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="49" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Advanced. Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">Change this weapons Potency to [TRANSCENDENT].</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
               <profiles>
                 <profile id="f5cd-bc67-b3e9-f155" name="Precision Rifle" typeId="d1f1-5d47-a755-8b5f" typeName="Weapon" hidden="false" page="45" publicationId="a21c-395e-03ec-6dcd">
                   <characteristics>
                     <characteristic name="Velocity" typeId="f173-8d0e-3d35-61a4">+0</characteristic>
                     <characteristic name="Potency" typeId="eca4-f354-09c4-9fb7">MORTAL + MORTAL</characteristic>
-                    <characteristic name="Traits and range" typeId="5aca-a7b8-a2de-08fa">Advanced. Ranged.</characteristic>
+                    <characteristic name="Traits and range" typeId="5aca-a7b8-a2de-08fa">Advanced. Firearm. Ranged.</characteristic>
                     <characteristic name="Special rules" typeId="8c35-8c96-b5da-3d94">High Caliber: Criticals rolled by this weapon cannot be blocked by a successful Reflex roll.</characteristic>
                   </characteristics>
                 </profile>
@@ -3190,12 +3322,78 @@ Indirect: Can target area attack on terrain.</characteristic>
               <costs>
                 <cost name="Influence" typeId="f178-88bc-7258-0c88" value="16" />
               </costs>
+              <selectionEntries>
+                <selectionEntry id="adf8-f083-01f6-b25e" name="Laser Sight" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="6" />
+                  </costs>
+                  <constraints>
+                    <constraint id="abbf-3671-6892-1932" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="c17a-2005-9a5a-8b61" name="Laser Sight" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">This weapon gains +1 Velocity.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="3ed6-4957-82df-ad4d" name="Compensator" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+                  </costs>
+                  <constraints>
+                    <constraint id="8633-f7c4-fcbd-0d44" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="2922-d043-c563-67f1" name="Compensator" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">When attacking with this weapon, count pairs of dice showing the same number in the attack roll. If the attack scores at least one unblocked strike, add an additional [MORTAL] to the total damage for each matching pair of dice (before applying RESILIENCE).</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="d144-13c1-c8b6-6f93" name="Scope" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="6" />
+                  </costs>
+                  <constraints>
+                    <constraint id="c51f-63cd-1910-a822" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="dd61-f414-c11d-93fd" name="Scope" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">When this weapon’s Ranged Attack benefits from Focus, after rolling the initial attack dice, you may change one ordinary success into a Critical Success. Roll its additional die and resolve any further Critical Successes normally.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="4577-95ea-ccd2-8bc5" name="Infra-Frequency Rounds" type="upgrade" hidden="false" page="49" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+                  </costs>
+                  <constraints>
+                    <constraint id="ec2a-44f0-f235-7ee9" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="4195-a400-b805-7ed1" name="Infra-Frequency Rounds" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="49" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Advanced. Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">Change this weapons Potency to [TRANSCENDENT].</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
               <profiles>
                 <profile id="90b9-cc08-134e-19ce" name="Precision Rifle" typeId="d1f1-5d47-a755-8b5f" typeName="Weapon" hidden="false" page="45" publicationId="a21c-395e-03ec-6dcd">
                   <characteristics>
                     <characteristic name="Velocity" typeId="f173-8d0e-3d35-61a4">+0</characteristic>
                     <characteristic name="Potency" typeId="eca4-f354-09c4-9fb7">MORTAL + MORTAL</characteristic>
-                    <characteristic name="Traits and range" typeId="5aca-a7b8-a2de-08fa">Advanced. Ranged.</characteristic>
+                    <characteristic name="Traits and range" typeId="5aca-a7b8-a2de-08fa">Advanced. Firearm. Ranged.</characteristic>
                     <characteristic name="Special rules" typeId="8c35-8c96-b5da-3d94">High Caliber: Criticals rolled by this weapon cannot be blocked by a successful Reflex roll.</characteristic>
                   </characteristics>
                 </profile>
@@ -4662,12 +4860,78 @@ Indirect: Can target area attack on terrain.</characteristic>
               <costs>
                 <cost name="Influence" typeId="f178-88bc-7258-0c88" value="16" />
               </costs>
+              <selectionEntries>
+                <selectionEntry id="6568-75a6-ea16-3a19" name="Laser Sight" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="6" />
+                  </costs>
+                  <constraints>
+                    <constraint id="8bb9-60ef-69d4-e7b2" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="da15-000f-38a9-f888" name="Laser Sight" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">This weapon gains +1 Velocity.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="e9d7-9543-cdcd-2a8d" name="Compensator" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+                  </costs>
+                  <constraints>
+                    <constraint id="5061-f8d1-9889-87c8" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="6f98-a11d-e384-1ffd" name="Compensator" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">When attacking with this weapon, count pairs of dice showing the same number in the attack roll. If the attack scores at least one unblocked strike, add an additional [MORTAL] to the total damage for each matching pair of dice (before applying RESILIENCE).</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="961c-73f9-6754-99f5" name="Scope" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="6" />
+                  </costs>
+                  <constraints>
+                    <constraint id="0eb9-06ff-6fae-32a6" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="d562-89a5-5693-a15e" name="Scope" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">When this weapon’s Ranged Attack benefits from Focus, after rolling the initial attack dice, you may change one ordinary success into a Critical Success. Roll its additional die and resolve any further Critical Successes normally.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="3272-f89c-7bde-605e" name="Infra-Frequency Rounds" type="upgrade" hidden="false" page="49" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+                  </costs>
+                  <constraints>
+                    <constraint id="dcad-5f71-4cde-cf8c" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="6ff4-bccd-1856-75fb" name="Infra-Frequency Rounds" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="49" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Advanced. Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">Change this weapons Potency to [TRANSCENDENT].</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
               <profiles>
                 <profile id="e8fc-41e9-9a4b-950b" name="Precision Rifle" typeId="d1f1-5d47-a755-8b5f" typeName="Weapon" hidden="false" page="45" publicationId="a21c-395e-03ec-6dcd">
                   <characteristics>
                     <characteristic name="Velocity" typeId="f173-8d0e-3d35-61a4">+0</characteristic>
                     <characteristic name="Potency" typeId="eca4-f354-09c4-9fb7">MORTAL + MORTAL</characteristic>
-                    <characteristic name="Traits and range" typeId="5aca-a7b8-a2de-08fa">Advanced. Ranged.</characteristic>
+                    <characteristic name="Traits and range" typeId="5aca-a7b8-a2de-08fa">Advanced. Firearm. Ranged.</characteristic>
                     <characteristic name="Special rules" typeId="8c35-8c96-b5da-3d94">High Caliber: Criticals rolled by this weapon cannot be blocked by a successful Reflex roll.</characteristic>
                   </characteristics>
                 </profile>
@@ -6128,12 +6392,78 @@ Indirect: Can target area attack on terrain.</characteristic>
               <costs>
                 <cost name="Influence" typeId="f178-88bc-7258-0c88" value="16" />
               </costs>
+              <selectionEntries>
+                <selectionEntry id="3933-f191-fa05-ef80" name="Laser Sight" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="6" />
+                  </costs>
+                  <constraints>
+                    <constraint id="07aa-9a66-793b-d1ea" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="7260-f903-0c5a-a958" name="Laser Sight" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">This weapon gains +1 Velocity.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="b0f2-9249-5045-5679" name="Compensator" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+                  </costs>
+                  <constraints>
+                    <constraint id="c4c0-412d-4050-c6c4" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="9cdb-acc5-4f3f-b6eb" name="Compensator" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">When attacking with this weapon, count pairs of dice showing the same number in the attack roll. If the attack scores at least one unblocked strike, add an additional [MORTAL] to the total damage for each matching pair of dice (before applying RESILIENCE).</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="916e-1232-7eec-52f4" name="Scope" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="6" />
+                  </costs>
+                  <constraints>
+                    <constraint id="d246-4c55-a7ef-2607" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="64fe-518c-ccdf-44fa" name="Scope" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">When this weapon’s Ranged Attack benefits from Focus, after rolling the initial attack dice, you may change one ordinary success into a Critical Success. Roll its additional die and resolve any further Critical Successes normally.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="2ff4-5fd0-7f4c-6aa2" name="Infra-Frequency Rounds" type="upgrade" hidden="false" page="49" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+                  </costs>
+                  <constraints>
+                    <constraint id="548e-cd59-5800-edc6" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="8310-5bae-a0a6-b07b" name="Infra-Frequency Rounds" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="49" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Advanced. Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">Change this weapons Potency to [TRANSCENDENT].</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
               <profiles>
                 <profile id="d4c3-4be5-e90f-21d3" name="Precision Rifle" typeId="d1f1-5d47-a755-8b5f" typeName="Weapon" hidden="false" page="45" publicationId="a21c-395e-03ec-6dcd">
                   <characteristics>
                     <characteristic name="Velocity" typeId="f173-8d0e-3d35-61a4">+0</characteristic>
                     <characteristic name="Potency" typeId="eca4-f354-09c4-9fb7">MORTAL + MORTAL</characteristic>
-                    <characteristic name="Traits and range" typeId="5aca-a7b8-a2de-08fa">Advanced. Ranged.</characteristic>
+                    <characteristic name="Traits and range" typeId="5aca-a7b8-a2de-08fa">Advanced. Firearm. Ranged.</characteristic>
                     <characteristic name="Special rules" typeId="8c35-8c96-b5da-3d94">High Caliber: Criticals rolled by this weapon cannot be blocked by a successful Reflex roll.</characteristic>
                   </characteristics>
                 </profile>
@@ -7682,12 +8012,78 @@ Indirect: Can target area attack on terrain.</characteristic>
               <costs>
                 <cost name="Influence" typeId="f178-88bc-7258-0c88" value="16" />
               </costs>
+              <selectionEntries>
+                <selectionEntry id="16fa-a636-862f-348d" name="Laser Sight" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="6" />
+                  </costs>
+                  <constraints>
+                    <constraint id="f1da-681a-dfb4-9022" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="1e9c-7859-1366-d0ea" name="Laser Sight" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">This weapon gains +1 Velocity.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="e00f-4ed3-89c1-9c28" name="Compensator" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+                  </costs>
+                  <constraints>
+                    <constraint id="9d8b-1090-d601-0cb7" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="3ed7-a342-9416-f691" name="Compensator" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">When attacking with this weapon, count pairs of dice showing the same number in the attack roll. If the attack scores at least one unblocked strike, add an additional [MORTAL] to the total damage for each matching pair of dice (before applying RESILIENCE).</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="5d83-8430-cbb7-e718" name="Scope" type="upgrade" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="6" />
+                  </costs>
+                  <constraints>
+                    <constraint id="ca6f-29e6-aa74-9aa8" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="80ef-468e-3482-32bb" name="Scope" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="47" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">When this weapon’s Ranged Attack benefits from Focus, after rolling the initial attack dice, you may change one ordinary success into a Critical Success. Roll its additional die and resolve any further Critical Successes normally.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry id="53a8-8690-df95-7140" name="Infra-Frequency Rounds" type="upgrade" hidden="false" page="49" publicationId="a21c-395e-03ec-6dcd">
+                  <costs>
+                    <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+                  </costs>
+                  <constraints>
+                    <constraint id="bcaa-a648-83d9-57e2" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+                  </constraints>
+                  <profiles>
+                    <profile id="3029-8af0-3432-e1aa" name="Infra-Frequency Rounds" typeId="838e-a506-1f18-c702" typeName="Asset" hidden="false" page="49" publicationId="a21c-395e-03ec-6dcd">
+                      <characteristics>
+                        <characteristic name="Restrictions / type" typeId="ea80-62e5-9e79-5ed4">Advanced. Attachment: Firearm</characteristic>
+                        <characteristic name="Effect" typeId="a0d4-cc2f-58cd-e83f">Change this weapons Potency to [TRANSCENDENT].</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+              </selectionEntries>
               <profiles>
                 <profile id="eb28-df2a-e7c4-c0b5" name="Precision Rifle" typeId="d1f1-5d47-a755-8b5f" typeName="Weapon" hidden="false" page="45" publicationId="a21c-395e-03ec-6dcd">
                   <characteristics>
                     <characteristic name="Velocity" typeId="f173-8d0e-3d35-61a4">+0</characteristic>
                     <characteristic name="Potency" typeId="eca4-f354-09c4-9fb7">MORTAL + MORTAL</characteristic>
-                    <characteristic name="Traits and range" typeId="5aca-a7b8-a2de-08fa">Advanced. Ranged.</characteristic>
+                    <characteristic name="Traits and range" typeId="5aca-a7b8-a2de-08fa">Advanced. Firearm. Ranged.</characteristic>
                     <characteristic name="Special rules" typeId="8c35-8c96-b5da-3d94">High Caliber: Criticals rolled by this weapon cannot be blocked by a successful Reflex roll.</characteristic>
                   </characteristics>
                 </profile>
