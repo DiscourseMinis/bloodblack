@@ -1,0 +1,1306 @@
+<?xml version='1.0' encoding='utf-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="5081-58e5-4e6b-16ba" name="Astral Sorority" revision="1" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="1" library="false">
+  <selectionEntries>
+    <selectionEntry id="505a-22f0-bafb-5f8f" name="Hierophant" type="model" hidden="false" page="80" publicationId="a21c-395e-03ec-6dcd">
+      <categoryLinks>
+        <categoryLink id="2772-b5d4-e712-089b" name="Characters" targetId="7818-f63f-5020-81d1" primary="true" hidden="false" />
+      </categoryLinks>
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="105" />
+      </costs>
+      <constraints>
+        <constraint id="0e38-0518-c9bb-7b20" type="max" value="1" field="selections" scope="force" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+        <constraint id="d1f1-8d1e-3940-d51f" type="min" value="1" field="selections" scope="force" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+      </constraints>
+      <rules>
+        <rule id="1675-99e9-5fde-7351" name="Astral Sorority" hidden="false">
+          <description>- May include ASTRAL SORORITY Characters and Assets and perform the STACK THE DECK Black Diablerie. - Once per turn, when any player draws an Activation Token from the Chaos Bag, you may return that token to the bag and draw again.</description>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="615e-429c-bd6c-cee5" name="Hierophant" typeId="7379-d42a-a99d-2084" typeName="Character (base profile)" publicationId="a21c-395e-03ec-6dcd" page="80" hidden="false">
+          <characteristics>
+            <characteristic name="Speed" typeId="5c3c-1745-c6f4-e1ab">6</characteristic>
+            <characteristic name="Might" typeId="6c6c-02be-13ea-abc0">3</characteristic>
+            <characteristic name="Finesse" typeId="ac91-114f-a56f-ac40">3</characteristic>
+            <characteristic name="Power" typeId="58ce-692d-f1ed-f0d2">7</characteristic>
+            <characteristic name="Reflex" typeId="285f-f125-f518-8cd9">2</characteristic>
+            <characteristic name="Resilience" typeId="fc73-5c60-9144-ba15">0</characteristic>
+            <characteristic name="Vitality" typeId="aa79-6e65-6e8c-b0da">9</characteristic>
+            <characteristic name="Traits" typeId="9100-254c-435d-4a59">Witch. Unique.</characteristic>
+            <characteristic name="Innate weapons" typeId="5f99-0e22-522c-59bc">Fists</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8012-057e-0f0f-af0e" name="Weapons" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="9c55-2169-99ab-72bf" name="Club" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9dc5-dfa9-dab8-65bf" name="Ghost Box" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fb80-3ea5-509d-0c7e" name="Gleaming Athame" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="17" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="050f-cf36-f6c1-c301" name="Uzi" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8e08-ae10-f40e-4c57" name="Soul Stealer" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4909-366c-d142-716b" name="Reverse-Path Rifle" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="24" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2c71-d50f-ae0d-9563" name="Accursed Flute" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="25" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d9d5-af94-0dac-6e4d" name="AK-47" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="30" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0a4b-1ec8-69bb-2f66" name="Ensorcelled Firearm" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="35" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3e79-851d-e3b3-446e" name="Amethyst Needle" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bca6-7e1d-b846-1ff8" name="Crescent Boline" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4331-e8e9-792a-d477" name="Threadcutter" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e098-3b44-5c60-55a2" name="Unique weapons" hidden="false">
+          <constraints>
+            <constraint id="3bb9-26ce-922f-b494" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+          </constraints>
+          <entryLinks>
+            <entryLink id="e3d1-d90b-ce0d-2258" name="Accolon’s Blade" type="selectionEntry" targetId="8fc1-77a2-a0ec-9bf4" hidden="false" />
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="34a9-2345-715e-ccad" name="Assets" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="7d82-3ca5-4882-8eed" name="The Fool: 0" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="a3b3-dfde-5c88-c0ed" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="3719-ad25-721d-1801" name="Haemonculus Fetish" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="6cfd-241a-d68a-1b52" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="2a2e-c8ca-4962-3847" name="Apple of Eden" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="7528-4ef8-5f7f-fba0" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="9be0-555c-cb23-8fb8" name="Doppelganger’s Finger" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="259a-ff01-33d1-1363" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="2055-e1d8-2d91-6e41" name="Haunted Doll" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="a87c-0d70-57bb-26e9" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="3f7e-3dc4-74ca-37cd" name="Abyssal Rod" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="13" />
+              </costs>
+              <constraints>
+                <constraint id="d641-c0a7-fed5-c404" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="1fc7-bbe5-7319-6c5c" name="Bloody Broomstick" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="de43-e68d-218d-3bfe" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="5619-d0b8-8b60-2316" name="Grave Wax Candle" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="18ba-747b-7747-1d86" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="628e-210f-9349-009e" name="Black Mirror" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="ff67-c63a-29fa-1ba2" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="e7d0-1b59-b0c5-2200" name="Willow Pendant" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="e638-b33e-f2e2-98c3" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="aabc-255e-d8f3-06a2" name="Solomon’s Ring" type="upgrade" hidden="false" page="91" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="0c1b-e3f1-5632-62b4" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="f417-7c07-9902-54f4" name="Hearthstone Talisman" type="upgrade" hidden="false" page="91" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="768b-5741-80b2-19b5" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="4f2e-0124-ec48-ac6b" name="Astrological Charts" type="upgrade" hidden="false" page="95" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="a58d-35aa-0b42-f220" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="e56a-828d-2aea-5dbd" name="Crystal Pendulum" type="upgrade" hidden="false" page="95" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="cb81-a559-c75b-caa0" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="b353-adc9-a23d-d366" name="Fateweaver" type="upgrade" hidden="false" page="95" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="1fc2-e928-7883-917c" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="a731-7ce7-7897-37f8" name="A Star That Fits in Your Mouth" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="c044-00ef-df57-eb90" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="dbda-d22f-bdaf-f5d7" name="Living Flames" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="ada9-ee65-63a1-5304" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="96cc-97df-cc75-1499" name="Unique assets" hidden="false">
+          <constraints>
+            <constraint id="fb2b-83ac-1709-3fea" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+          </constraints>
+          <entryLinks>
+            <entryLink id="fe75-bef2-0bc1-7f02" name="Book of Shadows" type="selectionEntry" targetId="7a18-9bb8-5aab-4af5" hidden="false" />
+            <entryLink id="ba07-83a5-c910-8306" name="Dread Diplomacy" type="selectionEntry" targetId="1043-9639-ff38-30b9" hidden="false" />
+            <entryLink id="beca-9d89-7cd4-9ed9" name="The Black Crown" type="selectionEntry" targetId="c202-f1d4-7cd3-4c59" hidden="false" />
+            <entryLink id="2734-f291-973d-f9dc" name="Clairvoyance" type="selectionEntry" targetId="2144-4479-149b-bb0f" hidden="false" />
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="e644-f028-465c-f80e" name="Celestial Sister" type="model" hidden="false" page="81" publicationId="a21c-395e-03ec-6dcd">
+      <categoryLinks>
+        <categoryLink id="10bf-e960-71da-9f67" name="Characters" targetId="7818-f63f-5020-81d1" primary="true" hidden="false" />
+      </categoryLinks>
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="90" />
+      </costs>
+      <profiles>
+        <profile id="52b2-bc7d-5fc2-c938" name="Celestial Sister" typeId="7379-d42a-a99d-2084" typeName="Character (base profile)" publicationId="a21c-395e-03ec-6dcd" page="81" hidden="false">
+          <characteristics>
+            <characteristic name="Speed" typeId="5c3c-1745-c6f4-e1ab">6</characteristic>
+            <characteristic name="Might" typeId="6c6c-02be-13ea-abc0">3</characteristic>
+            <characteristic name="Finesse" typeId="ac91-114f-a56f-ac40">3</characteristic>
+            <characteristic name="Power" typeId="58ce-692d-f1ed-f0d2">6</characteristic>
+            <characteristic name="Reflex" typeId="285f-f125-f518-8cd9">2</characteristic>
+            <characteristic name="Resilience" typeId="fc73-5c60-9144-ba15">0</characteristic>
+            <characteristic name="Vitality" typeId="aa79-6e65-6e8c-b0da">8</characteristic>
+            <characteristic name="Traits" typeId="9100-254c-435d-4a59">Witch.</characteristic>
+            <characteristic name="Innate weapons" typeId="5f99-0e22-522c-59bc">Fists</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9381-efcd-4030-a171" name="Weapons" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="2fcc-4aa9-63ea-5e88" name="Club" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c1ed-acf2-c93d-74cb" name="Ghost Box" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6a1c-e4a0-c215-f69f" name="Gleaming Athame" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="17" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3b4c-dba2-3d13-eb48" name="Uzi" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e806-634f-5dd4-a894" name="Soul Stealer" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c647-4ef2-2da7-7e35" name="Reverse-Path Rifle" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="24" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7586-1e01-c084-e1b2" name="Accursed Flute" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="25" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2ca0-43b1-61b2-d8c2" name="AK-47" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="30" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3303-cea3-d066-908e" name="Ensorcelled Firearm" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="35" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6f73-e999-de45-d45f" name="Amethyst Needle" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f836-3f41-4009-249f" name="Crescent Boline" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4dc2-d8d7-4ddb-e18e" name="Threadcutter" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c792-918a-fff0-207e" name="Unique weapons" hidden="false">
+          <constraints>
+            <constraint id="aa80-3f33-cc99-97da" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+          </constraints>
+          <entryLinks>
+            <entryLink id="f3d6-31dc-3194-de8a" name="Accolon’s Blade" type="selectionEntry" targetId="8fc1-77a2-a0ec-9bf4" hidden="false" />
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="da28-f5f5-a688-e1eb" name="Assets" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="b01e-aacc-1721-500e" name="The Fool: 0" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="1135-5a7f-914d-34e2" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="512a-5c1e-7a3f-20e0" name="Haemonculus Fetish" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="2a54-d8a7-261e-992f" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="b927-9590-7d4d-0bc3" name="Apple of Eden" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="ff8e-0404-cceb-4d65" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="ab30-a406-5efa-f456" name="Doppelganger’s Finger" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="0ddf-d3c2-992c-f288" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="621b-a33a-fa48-3eb3" name="Haunted Doll" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="22f1-e8bc-f632-063a" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="536f-7294-7a40-42ef" name="Abyssal Rod" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="13" />
+              </costs>
+              <constraints>
+                <constraint id="8858-167d-fbcb-cc5b" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="408f-a0d7-dcee-3871" name="Bloody Broomstick" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="9a8b-c17f-4044-8ec0" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="2bf2-381b-bd9e-0970" name="Grave Wax Candle" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="a5a9-5004-dcde-aa44" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="fff6-0cd1-5448-c318" name="Black Mirror" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="8381-d5b9-56d3-d0f1" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="2aa3-658a-af41-da26" name="Willow Pendant" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="5f6c-3e2f-5c6e-739c" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="a5ff-a120-aea9-048a" name="Solomon’s Ring" type="upgrade" hidden="false" page="91" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="b3aa-95c4-707b-5540" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="3e25-53b5-2922-15d5" name="Hearthstone Talisman" type="upgrade" hidden="false" page="91" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="2141-55e3-16d5-ac4d" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="d0ce-0b42-cfff-11cb" name="Astrological Charts" type="upgrade" hidden="false" page="95" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="54ec-3d89-5ad3-c044" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="a324-54f3-174f-e9ae" name="Crystal Pendulum" type="upgrade" hidden="false" page="95" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="f810-15bc-51bb-4a9b" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="8e20-a9f3-0bce-7868" name="Fateweaver" type="upgrade" hidden="false" page="95" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="c758-e75d-816c-1eb3" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="966d-e606-dc5a-9abb" name="A Star That Fits in Your Mouth" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="4166-95ec-5818-b7f5" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="0961-6f14-7aa9-3339" name="Living Flames" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="296a-d15b-d793-bc9f" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e1f6-97da-2265-6bf0" name="Unique assets" hidden="false">
+          <constraints>
+            <constraint id="3b08-fb4c-8b48-224d" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+          </constraints>
+          <entryLinks>
+            <entryLink id="57a6-1a4d-b1b5-eb95" name="Book of Shadows" type="selectionEntry" targetId="7a18-9bb8-5aab-4af5" hidden="false" />
+            <entryLink id="0aee-dac0-d0a1-ca8b" name="Clairvoyance" type="selectionEntry" targetId="2144-4479-149b-bb0f" hidden="false" />
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="1fa9-c486-f23c-c136" name="Faceless Sister" type="model" hidden="false" page="82" publicationId="a21c-395e-03ec-6dcd">
+      <categoryLinks>
+        <categoryLink id="6360-eb9d-e4b9-45ce" name="Characters" targetId="7818-f63f-5020-81d1" primary="true" hidden="false" />
+      </categoryLinks>
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="70" />
+      </costs>
+      <profiles>
+        <profile id="0d78-7d56-433c-3b2a" name="Faceless Sister" typeId="7379-d42a-a99d-2084" typeName="Character (base profile)" publicationId="a21c-395e-03ec-6dcd" page="82" hidden="false">
+          <characteristics>
+            <characteristic name="Speed" typeId="5c3c-1745-c6f4-e1ab">6</characteristic>
+            <characteristic name="Might" typeId="6c6c-02be-13ea-abc0">3</characteristic>
+            <characteristic name="Finesse" typeId="ac91-114f-a56f-ac40">3</characteristic>
+            <characteristic name="Power" typeId="58ce-692d-f1ed-f0d2">5</characteristic>
+            <characteristic name="Reflex" typeId="285f-f125-f518-8cd9">2</characteristic>
+            <characteristic name="Resilience" typeId="fc73-5c60-9144-ba15">0</characteristic>
+            <characteristic name="Vitality" typeId="aa79-6e65-6e8c-b0da">8</characteristic>
+            <characteristic name="Traits" typeId="9100-254c-435d-4a59">Witch.</characteristic>
+            <characteristic name="Innate weapons" typeId="5f99-0e22-522c-59bc">Fists</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d095-d0d8-7319-123f" name="Weapons" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="5f44-9f06-c030-f3ac" name="Club" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dee8-1b10-baa0-7c9b" name="Ghost Box" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="df74-fcfb-0063-338a" name="Gleaming Athame" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="17" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="76ba-ad8f-30c6-3162" name="Uzi" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="671b-2b19-9121-098c" name="Soul Stealer" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6a1c-8646-0ebb-38b7" name="Reverse-Path Rifle" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="24" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ecca-3632-1253-d8d8" name="Accursed Flute" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="25" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="709c-e56d-54e6-f417" name="AK-47" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="30" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="48b7-c35b-40c4-66a9" name="Ensorcelled Firearm" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="35" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="77c5-f48f-9565-443c" name="Amethyst Needle" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b15a-b406-8d4b-aaea" name="Crescent Boline" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8e0d-6432-73b7-c5f8" name="Threadcutter" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2e10-fb4f-4559-b1f2" name="Unique weapons" hidden="false">
+          <constraints>
+            <constraint id="af02-aae0-6be3-1774" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+          </constraints>
+          <entryLinks>
+            <entryLink id="54e8-781e-1431-639a" name="Accolon’s Blade" type="selectionEntry" targetId="8fc1-77a2-a0ec-9bf4" hidden="false" />
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="30ed-46d4-51be-1f9d" name="Assets" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="2778-cf8d-eb8b-b9f4" name="The Fool: 0" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="2d98-6e5f-08fd-f13d" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="f0fb-7057-2600-3179" name="Haemonculus Fetish" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="01db-41da-3c94-878b" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="7cd8-d3d1-cf7f-4b12" name="Apple of Eden" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="de33-7390-d3b1-096d" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="c8bc-c114-82ee-b1ff" name="Doppelganger’s Finger" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="d766-5dab-9116-6e43" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="c234-0b37-bd5e-b05a" name="Haunted Doll" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="cb4c-8644-4516-5a19" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="57db-6325-474e-40e3" name="Abyssal Rod" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="13" />
+              </costs>
+              <constraints>
+                <constraint id="fd2b-fe01-e04b-9078" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="6932-d5b3-86e9-e00e" name="Bloody Broomstick" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="dd66-6bae-e918-8e30" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="dcc9-6643-1237-41b1" name="Grave Wax Candle" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="54a7-69c9-18f3-237e" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="85d1-9ed6-9c64-acff" name="Black Mirror" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="a088-c66f-a831-7ecd" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="d146-70aa-80f2-d5af" name="Willow Pendant" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="d064-116a-f92f-6949" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="1ef7-25af-36e7-088c" name="Solomon’s Ring" type="upgrade" hidden="false" page="91" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="cebf-f400-5591-5a5f" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="05d1-e9f2-e016-c7f0" name="Hearthstone Talisman" type="upgrade" hidden="false" page="91" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="8c3c-f619-8c2f-913c" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="706a-24ff-3c83-bea3" name="Astrological Charts" type="upgrade" hidden="false" page="95" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="2cf4-0ce4-313f-b41c" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="ec0b-203b-cf0e-47a8" name="Crystal Pendulum" type="upgrade" hidden="false" page="95" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="16dc-383d-69b9-a282" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="026f-c4a1-ad32-d92d" name="Fateweaver" type="upgrade" hidden="false" page="95" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="4047-d3fa-5168-e21e" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="baf4-e1fa-674e-1bd0" name="A Star That Fits in Your Mouth" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="c836-f677-1431-d986" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="d6c3-9ba8-c410-e2eb" name="Living Flames" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="2a33-c79e-f379-d7e2" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8f25-2fdf-b426-5e2a" name="Unique assets" hidden="false">
+          <constraints>
+            <constraint id="0c1f-8696-12e8-b576" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+          </constraints>
+          <entryLinks>
+            <entryLink id="2ce9-fd05-cea7-dbd4" name="Book of Shadows" type="selectionEntry" targetId="7a18-9bb8-5aab-4af5" hidden="false" />
+            <entryLink id="c0e3-ac1e-6999-8783" name="Clairvoyance" type="selectionEntry" targetId="2144-4479-149b-bb0f" hidden="false" />
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="f0db-b029-c04d-8688" name="Worm" type="model" hidden="false" page="84" publicationId="a21c-395e-03ec-6dcd">
+      <categoryLinks>
+        <categoryLink id="ccd2-4063-a8ef-f757" name="Characters" targetId="7818-f63f-5020-81d1" primary="true" hidden="false" />
+      </categoryLinks>
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="50" />
+      </costs>
+      <profiles>
+        <profile id="d52a-65d7-2b18-baed" name="Worm" typeId="7379-d42a-a99d-2084" typeName="Character (base profile)" publicationId="a21c-395e-03ec-6dcd" page="84" hidden="false">
+          <characteristics>
+            <characteristic name="Speed" typeId="5c3c-1745-c6f4-e1ab">6</characteristic>
+            <characteristic name="Might" typeId="6c6c-02be-13ea-abc0">2</characteristic>
+            <characteristic name="Finesse" typeId="ac91-114f-a56f-ac40">2</characteristic>
+            <characteristic name="Power" typeId="58ce-692d-f1ed-f0d2">2</characteristic>
+            <characteristic name="Reflex" typeId="285f-f125-f518-8cd9">2</characteristic>
+            <characteristic name="Resilience" typeId="fc73-5c60-9144-ba15">0</characteristic>
+            <characteristic name="Vitality" typeId="aa79-6e65-6e8c-b0da">8</characteristic>
+            <characteristic name="Traits" typeId="9100-254c-435d-4a59">Mortal.</characteristic>
+            <characteristic name="Innate weapons" typeId="5f99-0e22-522c-59bc">Fists</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8336-ea87-1078-fc31" name="Weapons" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="41fe-b0a4-0789-bc2a" name="Club" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4d90-1d34-47f3-f888" name="Ghost Box" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a2bf-0963-6667-e710" name="Gleaming Athame" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="17" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9802-14dd-12b7-501c" name="Uzi" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="abb7-4c0e-36ae-14ea" name="Soul Stealer" type="upgrade" hidden="false" page="88" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e47a-4bc9-cfae-5196" name="Reverse-Path Rifle" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="24" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c494-9995-dabc-190c" name="AK-47" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="30" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ee73-6180-66ae-0c57" name="Ensorcelled Firearm" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="35" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="533b-ffe4-8541-077f" name="Amethyst Needle" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e975-be35-4560-04b2" name="Assets" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="7644-60fe-7631-a5e7" name="The Fool: 0" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="a3f9-0148-ea0b-d586" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="eabf-260c-4b05-936a" name="Haunted Doll" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="5f91-0ebd-bad0-8df8" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="b8ca-ae35-a687-dbf7" name="Abyssal Rod" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="13" />
+              </costs>
+              <constraints>
+                <constraint id="8c1b-f125-9774-ed30" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="4644-97d3-806d-0592" name="Astrological Charts" type="upgrade" hidden="false" page="95" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="73f2-b77b-6509-6b08" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="83f4-6069-1554-74b8" name="Living Flames" type="upgrade" hidden="false" page="94" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="9443-c900-65b8-826a" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="cc42-86e1-f3b8-ff24" name="Hellspawn" type="model" hidden="false" page="86" publicationId="a21c-395e-03ec-6dcd">
+      <categoryLinks>
+        <categoryLink id="2895-3741-fd29-2810" name="Characters" targetId="7818-f63f-5020-81d1" primary="true" hidden="false" />
+      </categoryLinks>
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="60" />
+      </costs>
+      <profiles>
+        <profile id="b234-6781-d6fc-3f43" name="Hellspawn" typeId="7379-d42a-a99d-2084" typeName="Character (base profile)" publicationId="a21c-395e-03ec-6dcd" page="86" hidden="false">
+          <characteristics>
+            <characteristic name="Speed" typeId="5c3c-1745-c6f4-e1ab">8</characteristic>
+            <characteristic name="Might" typeId="6c6c-02be-13ea-abc0">6</characteristic>
+            <characteristic name="Finesse" typeId="ac91-114f-a56f-ac40">2</characteristic>
+            <characteristic name="Power" typeId="58ce-692d-f1ed-f0d2">0</characteristic>
+            <characteristic name="Reflex" typeId="285f-f125-f518-8cd9">3</characteristic>
+            <characteristic name="Resilience" typeId="fc73-5c60-9144-ba15">1</characteristic>
+            <characteristic name="Vitality" typeId="aa79-6e65-6e8c-b0da">9</characteristic>
+            <characteristic name="Traits" typeId="9100-254c-435d-4a59">Devil.</characteristic>
+            <characteristic name="Innate weapons" typeId="5f99-0e22-522c-59bc">Savage Assault</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7fa4-3892-d1ca-d4c6" name="Lilith’s Gifts" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="f80d-61f2-2ce3-d17e" name="Wings Like Locust" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+              </costs>
+              <constraints>
+                <constraint id="9520-16c8-53ff-3764" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="d90e-aa66-dcb8-a117" name="Hooves That Crunch" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="ce69-bfcd-ef18-7d78" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="8928-d946-6da4-dd28" name="Face Like Man’s" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="96c9-723a-72cf-f2f9" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="bed2-efe9-8ab1-0a61" name="Black Crystal Skin" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="5716-7937-3520-7fd8" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="cbd6-e4c5-a1d3-9325" name="Bloated Body" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="b17f-fa8b-fa9a-c91b" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="64b2-9a72-a5df-8ab3" name="Eyes That See" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="7bde-4cec-4188-c961" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="0cfc-d2b9-b093-9365" name="Claws That Scratch" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="a55e-6e81-d996-9f3f" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="e054-276b-446a-b8ff" name="Tongue That Tastes" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="2e16-0f1c-e0e3-2137" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="260e-d881-e795-5ef8" name="Scales That Slither" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="22ac-a0a0-580e-b130" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="8745-b539-6b56-2861" name="Teeth That Bite" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="fdb0-3524-7a92-735f" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="2cd0-8755-a415-b48f" name="Smooth Sinews" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="9d68-b127-3ce4-cbda" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="7111-ea52-ef26-28a1" name="Incomprehensible Form" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="1f0a-bef2-96b7-8f0a" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="9c5d-c2ca-8739-2091" name="Flying Nightmare" type="model" hidden="false" page="86" publicationId="a21c-395e-03ec-6dcd">
+      <categoryLinks>
+        <categoryLink id="ee5f-a5fa-9a42-d9d0" name="Characters" targetId="7818-f63f-5020-81d1" primary="true" hidden="false" />
+      </categoryLinks>
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="40" />
+      </costs>
+      <profiles>
+        <profile id="c926-609d-2ef9-37ef" name="Flying Nightmare" typeId="7379-d42a-a99d-2084" typeName="Character (base profile)" publicationId="a21c-395e-03ec-6dcd" page="86" hidden="false">
+          <characteristics>
+            <characteristic name="Speed" typeId="5c3c-1745-c6f4-e1ab">10</characteristic>
+            <characteristic name="Might" typeId="6c6c-02be-13ea-abc0">1</characteristic>
+            <characteristic name="Finesse" typeId="ac91-114f-a56f-ac40">1</characteristic>
+            <characteristic name="Power" typeId="58ce-692d-f1ed-f0d2">0</characteristic>
+            <characteristic name="Reflex" typeId="285f-f125-f518-8cd9">4</characteristic>
+            <characteristic name="Resilience" typeId="fc73-5c60-9144-ba15">1</characteristic>
+            <characteristic name="Vitality" typeId="aa79-6e65-6e8c-b0da">5</characteristic>
+            <characteristic name="Traits" typeId="9100-254c-435d-4a59">Devil.</characteristic>
+            <characteristic name="Innate weapons" typeId="5f99-0e22-522c-59bc">—</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6478-1de4-89cc-fe3d" name="Lilith’s Gifts" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="031b-f968-c7fe-31fd" name="Wings Like Locust" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+              </costs>
+              <constraints>
+                <constraint id="2b3e-0f38-bb23-bcd3" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="d698-b950-6cab-d32a" name="Hooves That Crunch" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="35f6-718f-d70d-4868" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="00c9-a99f-237f-2c15" name="Face Like Man’s" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="2439-2992-6863-4e07" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="7f93-5fc6-781f-58a8" name="Black Crystal Skin" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="1f57-25a1-31f8-f6fe" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="ec8e-9ab4-67e6-e692" name="Bloated Body" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="1649-8262-5437-6865" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="96de-6428-3249-03ac" name="Eyes That See" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="ab12-4080-f4c4-3be2" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="3c1c-39f1-e598-f81e" name="Claws That Scratch" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="d2b0-9f35-07d0-f40b" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="dc08-b332-605f-7f37" name="Tongue That Tastes" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="8e8e-e03f-3d9c-e618" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="4e6a-d32b-c926-74cd" name="Scales That Slither" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="fbf3-b2b5-2a3f-2801" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="0a3f-d6f1-adda-412a" name="Teeth That Bite" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="c2e7-a8fa-175d-6f2d" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="adc3-8f4a-04a7-810c" name="Smooth Sinews" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="c6ae-c5da-1156-69aa" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="bc9d-4cf9-3f9c-2f8e" name="Incomprehensible Form" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="e1db-fec3-a5ff-84de" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="4d74-0152-bdb0-6db3" name="Living Shadow" type="model" hidden="false" page="87" publicationId="a21c-395e-03ec-6dcd">
+      <categoryLinks>
+        <categoryLink id="be04-d72b-a768-28bd" name="Characters" targetId="7818-f63f-5020-81d1" primary="true" hidden="false" />
+      </categoryLinks>
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="70" />
+      </costs>
+      <profiles>
+        <profile id="5077-3baf-a68e-b39b" name="Living Shadow" typeId="7379-d42a-a99d-2084" typeName="Character (base profile)" publicationId="a21c-395e-03ec-6dcd" page="87" hidden="false">
+          <characteristics>
+            <characteristic name="Speed" typeId="5c3c-1745-c6f4-e1ab">6</characteristic>
+            <characteristic name="Might" typeId="6c6c-02be-13ea-abc0">3</characteristic>
+            <characteristic name="Finesse" typeId="ac91-114f-a56f-ac40">2</characteristic>
+            <characteristic name="Power" typeId="58ce-692d-f1ed-f0d2">0</characteristic>
+            <characteristic name="Reflex" typeId="285f-f125-f518-8cd9">2</characteristic>
+            <characteristic name="Resilience" typeId="fc73-5c60-9144-ba15">2</characteristic>
+            <characteristic name="Vitality" typeId="aa79-6e65-6e8c-b0da">9</characteristic>
+            <characteristic name="Traits" typeId="9100-254c-435d-4a59">Devil.</characteristic>
+            <characteristic name="Innate weapons" typeId="5f99-0e22-522c-59bc">Shadow Coils</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cf2c-d7a3-7b61-4b6a" name="Lilith’s Gifts" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="6a9b-4777-17be-02d7" name="Wings Like Locust" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="5" />
+              </costs>
+              <constraints>
+                <constraint id="f1a5-7f2c-3aec-9692" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="dcf3-4dbd-e967-d2a0" name="Hooves That Crunch" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="162e-1091-d97c-61e3" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="6b67-1a72-6366-7f8d" name="Face Like Man’s" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="3806-fef4-8755-6ffe" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="7023-3df6-13c1-26eb" name="Black Crystal Skin" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="5ca4-9f46-8b13-b519" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="4520-b1a4-a59e-01da" name="Bloated Body" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="f656-f05b-60c3-6086" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="cf61-f13b-e558-93f9" name="Eyes That See" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="0e10-a38c-ccb2-0896" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="f6b2-3532-f92d-d590" name="Claws That Scratch" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="4c8c-3424-6118-b978" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="1257-9b47-9e27-495a" name="Tongue That Tastes" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="625d-0273-e6c6-56cb" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="d30a-9756-59ef-574e" name="Scales That Slither" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="6587-399b-08ad-c526" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="e3dd-1e22-b2eb-cc4d" name="Teeth That Bite" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="408d-f854-e089-2a05" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="a6f0-f55c-5f0c-ff0c" name="Smooth Sinews" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="80e4-2a2d-f6d2-6731" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="9db4-d94e-e1e6-d9c8" name="Incomprehensible Form" type="upgrade" hidden="false" page="92" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="863e-b135-fd34-69c9" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="8fc1-77a2-a0ec-9bf4" name="Accolon’s Blade" type="upgrade" hidden="false" page="89" publicationId="a21c-395e-03ec-6dcd">
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="40" />
+      </costs>
+      <constraints>
+        <constraint id="6d48-71a0-9f14-f7e7" type="max" value="1" field="selections" scope="force" shared="true" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="7a18-9bb8-5aab-4af5" name="Book of Shadows" type="upgrade" hidden="false" page="90" publicationId="a21c-395e-03ec-6dcd">
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+      </costs>
+      <constraints>
+        <constraint id="8a31-8cdc-2470-bb5d" type="max" value="1" field="selections" scope="force" shared="true" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="1043-9639-ff38-30b9" name="Dread Diplomacy" type="upgrade" hidden="false" page="91" publicationId="a21c-395e-03ec-6dcd">
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+      </costs>
+      <constraints>
+        <constraint id="be52-f635-24f0-0ec2" type="max" value="1" field="selections" scope="force" shared="true" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="efa7-db55-5284-0aa4" name="Bargain" hidden="false">
+          <constraints>
+            <constraint id="b03b-af6e-5d33-1804" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+            <constraint id="d64d-7b11-2a75-467c" type="min" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9930-6f53-58c2-7fb4" name="Zepar’s Shield" type="upgrade" hidden="false" />
+            <selectionEntry id="707a-a451-c77e-0afa" name="Vepar’s Ships" type="upgrade" hidden="false" />
+            <selectionEntry id="fe46-47e0-877b-5748" name="Agares’ Hawk" type="upgrade" hidden="false" />
+            <selectionEntry id="f681-c39d-bfb1-695f" name="Allocer’s Lance" type="upgrade" hidden="false" />
+            <selectionEntry id="baa1-31ac-933a-5137" name="Astaroth’s Viper" type="upgrade" hidden="false" />
+            <selectionEntry id="c4dc-0ce6-12a1-f73c" name="Bune’s Heads" type="upgrade" hidden="false" />
+            <selectionEntry id="b9c0-bcb3-9784-8b3f" name="Bathin’s Horse" type="upgrade" hidden="false" />
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="c202-f1d4-7cd3-4c59" name="The Black Crown" type="upgrade" hidden="false" page="91" publicationId="a21c-395e-03ec-6dcd">
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="45" />
+      </costs>
+      <constraints>
+        <constraint id="7000-4d88-8414-850a" type="max" value="1" field="selections" scope="force" shared="true" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="2144-4479-149b-bb0f" name="Clairvoyance" type="upgrade" hidden="false" page="95" publicationId="a21c-395e-03ec-6dcd">
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="35" />
+      </costs>
+      <constraints>
+        <constraint id="db5c-cdf3-fe58-5b77" type="max" value="1" field="selections" scope="force" shared="true" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+      </constraints>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

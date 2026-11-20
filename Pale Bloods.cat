@@ -1,0 +1,1194 @@
+<?xml version='1.0' encoding='utf-8'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="58cb-9312-c3ce-3ce2" name="Pale Bloods" revision="1" battleScribeVersion="2.03" gameSystemId="1029-fba5-6af2-96d8" gameSystemRevision="1" library="false">
+  <selectionEntries>
+    <selectionEntry id="3a9c-0fe2-2de7-1caf" name="Royal" type="model" hidden="false" page="58" publicationId="a21c-395e-03ec-6dcd">
+      <categoryLinks>
+        <categoryLink id="4f4c-2c8e-196f-c7c9" name="Characters" targetId="7818-f63f-5020-81d1" primary="true" hidden="false" />
+      </categoryLinks>
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="175" />
+      </costs>
+      <constraints>
+        <constraint id="df8b-c4b4-e1db-2d64" type="max" value="1" field="selections" scope="force" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+        <constraint id="4cb0-3da5-ba52-d8ea" type="min" value="1" field="selections" scope="force" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+      </constraints>
+      <rules>
+        <rule id="e6c1-f00c-27fd-e206" name="Pale Bloods" hidden="false">
+          <description>- May include PALE BLOOD Characters and Assets. - MORTAL Characters cannot be recruited.</description>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="0a4e-e378-792f-4a7d" name="Royal" typeId="7379-d42a-a99d-2084" typeName="Character (base profile)" publicationId="a21c-395e-03ec-6dcd" page="58" hidden="false">
+          <characteristics>
+            <characteristic name="Speed" typeId="5c3c-1745-c6f4-e1ab">7</characteristic>
+            <characteristic name="Might" typeId="6c6c-02be-13ea-abc0">6</characteristic>
+            <characteristic name="Finesse" typeId="ac91-114f-a56f-ac40">6</characteristic>
+            <characteristic name="Power" typeId="58ce-692d-f1ed-f0d2">5</characteristic>
+            <characteristic name="Reflex" typeId="285f-f125-f518-8cd9">4</characteristic>
+            <characteristic name="Resilience" typeId="fc73-5c60-9144-ba15">2</characteristic>
+            <characteristic name="Vitality" typeId="aa79-6e65-6e8c-b0da">15</characteristic>
+            <characteristic name="Traits" typeId="9100-254c-435d-4a59">Vampire. Leader. Unique.</characteristic>
+            <characteristic name="Innate weapons" typeId="5f99-0e22-522c-59bc">Vampire Bite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="38dc-5e6a-6c77-9f97" name="Weapons" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="88e1-f6b9-fc6c-4bbe" name="Flanged Mace" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cb0d-8b1c-4c77-861f" name="Bloody Machete" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8282-2ca5-e8da-14b3" name="Throwing Knives" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9750-4d98-3fe2-cfbe" name="Old Shotgun" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="14" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1bd4-c43c-0bd9-7d31" name="Despoiler Scythe" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ec95-0eef-dbf6-cda6" name="Skull Cane" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="866d-9610-056b-9860" name="Sledgehammer" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="24e5-0fb0-5c5d-9c35" name="Hunting Rifle" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="28" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8b17-b9b5-9053-fbbf" name="“Family Heirloom” MP40" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="30" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2b4b-fefe-b860-4ea3" name="Elegant Rapier" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="30" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3acb-2fc8-fbb6-d2fb" name="Ruinous Kilĳ" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="22" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7d00-1343-9449-30a0" name="Brazen Chakram" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="26" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3ee8-d462-6c5f-bc41" name="Torment Urumi" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="40" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2bd7-7767-eb58-7f04" name="Assets" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="4d35-6731-79e4-2314" name="Preternatural" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="165d-cfac-741f-12b0" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="5c34-8924-4f28-6e0e" name="Transcendent Beauty" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="5415-6d13-9a71-66a6" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="8651-c6e8-9fee-3501" name="Bloodlust" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="b998-ded9-d52e-4df1" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="b23b-da40-d9e8-cf9b" name="Frenzied Feeder" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="6258-1e68-8e75-8d47" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="a3c7-3865-7623-03be" name="Nightmare Trinket" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="2ff4-143f-b6a2-fe4e" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="a4ca-f151-09ac-e905" name="Esoteric Tattoos" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="5853-dc03-c340-1337" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="7398-d246-b651-7395" name="Tenebrous Predator" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="1fe0-5673-d925-fe72" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="c160-04ab-b067-3de4" name="Nightmare Predator" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="f368-0810-6554-a159" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="252a-950c-7fb7-00eb" name="Infected Brood" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="8102-8705-713f-707f" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="11b4-d005-ce76-5851" name="Mastery of Shadows" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="b9d7-d3f7-2cce-6aec" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="82fb-26f6-bf1a-0208" name="Shadow Play" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="a0dd-a2d7-2585-f3f3" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="6506-a509-15f7-2d5e" name="Corpse Mimicry" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="db4a-d1cf-1fee-d945" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="f560-e72b-4d2f-f8a1" name="Screaming Necklace" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="d257-965f-47d3-e1d4" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="ed44-5d93-25c4-a99b" name="Verminous Communion" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="5ca9-fcd1-a1d2-6d8d" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="9c10-63df-4ae0-9b80" name="Inhuman Alacrity" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="35" />
+              </costs>
+              <constraints>
+                <constraint id="86c3-da29-94f2-fe50" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f9f2-8e6f-b873-1547" name="Unique assets" hidden="false">
+          <constraints>
+            <constraint id="a4c8-8605-6c7e-2c33" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+          </constraints>
+          <entryLinks>
+            <entryLink id="7c4a-16dd-c613-6a6e" name="Heart Shaped Phylactery" type="selectionEntry" targetId="0ce0-6817-967b-a47b" hidden="false" />
+            <entryLink id="f667-4936-af75-b2e5" name="Golden Scepter" type="selectionEntry" targetId="3ed9-c875-365a-3a2b" hidden="false" />
+            <entryLink id="372d-c158-39ff-7463" name="Underdweller Kingdom" type="selectionEntry" targetId="11fd-9b8b-1d85-56dd" hidden="false" />
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c41c-9fcd-c5fc-fd27" name="Blood Boons" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="d9c6-a010-2ef4-b8b6" name="Unnatural Grace" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="5009-34d0-8bd1-8567" type="max" value="5" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="aa1f-e4c7-8852-d714" name="Unnatural Haste" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="3406-5cdc-9ccc-cd3f" type="max" value="5" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="5928-03e1-4369-098f" name="Unnatural Celerity" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="08ac-1588-8fab-ead2" type="max" value="5" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="f882-31cb-733c-c949" name="Unnatural Vigor" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="78d7-5675-7241-86e5" type="max" value="5" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="a4c2-9be9-6273-130c" name="Unnatural Resistance" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="04ef-c797-c34c-912e" type="max" value="5" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="04c5-133a-9aa1-6d54" name="Courtesan" type="model" hidden="false" page="59" publicationId="a21c-395e-03ec-6dcd">
+      <categoryLinks>
+        <categoryLink id="2489-b203-0191-b616" name="Characters" targetId="7818-f63f-5020-81d1" primary="true" hidden="false" />
+      </categoryLinks>
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="135" />
+      </costs>
+      <profiles>
+        <profile id="3591-0733-2cd0-32a9" name="Courtesan" typeId="7379-d42a-a99d-2084" typeName="Character (base profile)" publicationId="a21c-395e-03ec-6dcd" page="59" hidden="false">
+          <characteristics>
+            <characteristic name="Speed" typeId="5c3c-1745-c6f4-e1ab">7</characteristic>
+            <characteristic name="Might" typeId="6c6c-02be-13ea-abc0">5</characteristic>
+            <characteristic name="Finesse" typeId="ac91-114f-a56f-ac40">5</characteristic>
+            <characteristic name="Power" typeId="58ce-692d-f1ed-f0d2">4</characteristic>
+            <characteristic name="Reflex" typeId="285f-f125-f518-8cd9">3</characteristic>
+            <characteristic name="Resilience" typeId="fc73-5c60-9144-ba15">1</characteristic>
+            <characteristic name="Vitality" typeId="aa79-6e65-6e8c-b0da">13</characteristic>
+            <characteristic name="Traits" typeId="9100-254c-435d-4a59">Vampire.</characteristic>
+            <characteristic name="Innate weapons" typeId="5f99-0e22-522c-59bc">Vampire Bite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e212-277b-835a-c653" name="Weapons" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="e426-f9ac-a5c6-92ad" name="Flanged Mace" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cd03-244a-b0f7-6cd0" name="Bloody Machete" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b83c-5fe9-1e99-9ab7" name="Throwing Knives" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6d3e-3f1e-e185-9927" name="Old Shotgun" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="14" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2069-94be-a66e-f026" name="Despoiler Scythe" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="79c5-ad40-fd55-1d74" name="Skull Cane" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d3ff-c8dc-8b8f-f360" name="Sledgehammer" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6f05-6161-5a52-b7b9" name="Hunting Rifle" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="28" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a202-996a-d6de-333e" name="“Family Heirloom” MP40" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="30" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2a94-9259-d2e8-95fe" name="Elegant Rapier" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="30" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="86b7-02a8-b443-a08a" name="Ruinous Kilĳ" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="22" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d1be-a51f-70f1-f15c" name="Brazen Chakram" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="26" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c7c8-a45c-ea12-7f5a" name="Torment Urumi" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="40" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="cf15-1add-1d39-e0f2" name="Assets" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="d0ca-cfd3-5be3-dd91" name="Preternatural" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="4564-bbbe-62f5-1155" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="4c10-b283-35e0-7574" name="Transcendent Beauty" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="e45c-bcf8-f564-37b6" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="7c0b-1b2f-6379-db47" name="Bloodlust" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="2534-679c-51c9-a145" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="a126-61c0-99e5-906d" name="Frenzied Feeder" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="fb3b-f178-3d66-981c" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="0866-4fa5-c0c0-03f2" name="Nightmare Trinket" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="925e-4ff1-2603-1181" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="8591-a643-da60-6f09" name="Esoteric Tattoos" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="ab7e-9003-e8a1-a6d5" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="4cf6-8848-8a1a-f8ff" name="Tenebrous Predator" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="992b-baac-2826-3d22" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="6eef-74a9-0ce4-784a" name="Nightmare Predator" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="c151-6fb2-312f-8bbb" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="f419-3d15-be45-c646" name="Infected Brood" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="814e-eb5e-3c1c-27cf" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="fa1d-9de7-cbb3-f71f" name="Mastery of Shadows" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="1aaa-9e74-e075-6d01" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="b3c2-c820-b6fa-0b33" name="Shadow Play" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="b541-a0e7-606c-4ebb" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="d8cc-dc72-3061-3dc0" name="Corpse Mimicry" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="acb7-5e00-1929-8ce5" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="5687-2496-c3cb-78fb" name="Screaming Necklace" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="1a86-556f-b6d8-920c" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="66bb-c69c-1e69-9cfd" name="Verminous Communion" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="3fc6-bc4b-53a0-0494" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="5a55-84f4-b238-2231" name="Inhuman Alacrity" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="35" />
+              </costs>
+              <constraints>
+                <constraint id="085b-fa83-d4e9-b07c" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="6367-3268-e0d5-cbcf" name="Unique assets" hidden="false">
+          <constraints>
+            <constraint id="c73b-34c3-e177-d598" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+          </constraints>
+          <entryLinks>
+            <entryLink id="b1c8-3e9d-065f-44ed" name="Heart Shaped Phylactery" type="selectionEntry" targetId="0ce0-6817-967b-a47b" hidden="false" />
+            <entryLink id="2e5c-ab2c-b450-334e" name="Golden Scepter" type="selectionEntry" targetId="3ed9-c875-365a-3a2b" hidden="false" />
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7821-a400-5ee2-c2de" name="Blood Boons" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="9c7d-d53a-0edd-acb9" name="Unnatural Grace" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="e43f-037f-c1c6-c9d5" type="max" value="4" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="99d1-a842-5e72-e613" name="Unnatural Haste" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="a5c7-e33d-87d8-b71b" type="max" value="4" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="005b-eb04-fb52-f0c9" name="Unnatural Celerity" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="ea7f-80cb-61ab-a0fc" type="max" value="4" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="b7ba-ead9-e6ca-4143" name="Unnatural Vigor" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="a364-62cb-1927-8b2a" type="max" value="4" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="1487-37aa-ae0e-3958" name="Unnatural Resistance" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="ab38-ff16-fb0d-7f87" type="max" value="4" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="3006-058c-502f-d069" name="Grotesque" type="model" hidden="false" page="60" publicationId="a21c-395e-03ec-6dcd">
+      <categoryLinks>
+        <categoryLink id="9d9e-5cb6-fc49-4fec" name="Characters" targetId="7818-f63f-5020-81d1" primary="true" hidden="false" />
+      </categoryLinks>
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="130" />
+      </costs>
+      <profiles>
+        <profile id="3deb-5630-5422-aeb5" name="Grotesque" typeId="7379-d42a-a99d-2084" typeName="Character (base profile)" publicationId="a21c-395e-03ec-6dcd" page="60" hidden="false">
+          <characteristics>
+            <characteristic name="Speed" typeId="5c3c-1745-c6f4-e1ab">7</characteristic>
+            <characteristic name="Might" typeId="6c6c-02be-13ea-abc0">4</characteristic>
+            <characteristic name="Finesse" typeId="ac91-114f-a56f-ac40">3</characteristic>
+            <characteristic name="Power" typeId="58ce-692d-f1ed-f0d2">3</characteristic>
+            <characteristic name="Reflex" typeId="285f-f125-f518-8cd9">1</characteristic>
+            <characteristic name="Resilience" typeId="fc73-5c60-9144-ba15">3</characteristic>
+            <characteristic name="Vitality" typeId="aa79-6e65-6e8c-b0da">15</characteristic>
+            <characteristic name="Traits" typeId="9100-254c-435d-4a59">Vampire.</characteristic>
+            <characteristic name="Innate weapons" typeId="5f99-0e22-522c-59bc">Vicious Claws, Vampire Bite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8a61-36d7-c2c6-78d0" name="Blood Boons" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="12fb-5a30-1e53-fff6" name="Unnatural Grace" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="e72d-3a9a-a298-6fe8" type="max" value="3" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="af20-5aa6-2bbe-f8f3" name="Unnatural Haste" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="606f-67b8-42a7-2d65" type="max" value="3" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="fd6d-b78b-824a-033a" name="Unnatural Celerity" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="5166-b846-706f-5563" type="max" value="3" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="9750-b323-b1f0-c734" name="Unnatural Vigor" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="cb81-f848-e355-7967" type="max" value="3" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="fae8-a114-b37f-8c70" name="Unnatural Resistance" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="5051-9638-97a3-90d1" type="max" value="3" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="b33b-e163-5fb4-be38" name="Gladiator" type="model" hidden="false" page="62" publicationId="a21c-395e-03ec-6dcd">
+      <categoryLinks>
+        <categoryLink id="86f5-36a3-3ae5-6e29" name="Characters" targetId="7818-f63f-5020-81d1" primary="true" hidden="false" />
+      </categoryLinks>
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="115" />
+      </costs>
+      <profiles>
+        <profile id="ec7f-9f33-653d-6cbe" name="Gladiator" typeId="7379-d42a-a99d-2084" typeName="Character (base profile)" publicationId="a21c-395e-03ec-6dcd" page="62" hidden="false">
+          <characteristics>
+            <characteristic name="Speed" typeId="5c3c-1745-c6f4-e1ab">7</characteristic>
+            <characteristic name="Might" typeId="6c6c-02be-13ea-abc0">4</characteristic>
+            <characteristic name="Finesse" typeId="ac91-114f-a56f-ac40">4</characteristic>
+            <characteristic name="Power" typeId="58ce-692d-f1ed-f0d2">4</characteristic>
+            <characteristic name="Reflex" typeId="285f-f125-f518-8cd9">3</characteristic>
+            <characteristic name="Resilience" typeId="fc73-5c60-9144-ba15">1</characteristic>
+            <characteristic name="Vitality" typeId="aa79-6e65-6e8c-b0da">11</characteristic>
+            <characteristic name="Traits" typeId="9100-254c-435d-4a59">Vampire.</characteristic>
+            <characteristic name="Innate weapons" typeId="5f99-0e22-522c-59bc">Vampire Bite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d5c6-1e85-3e79-ad2f" name="Weapons" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="04ad-d71f-3b21-6e7e" name="Flanged Mace" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4585-407f-5d5a-5e62" name="Bloody Machete" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6884-58ac-a8b9-370a" name="Throwing Knives" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ff21-1191-4e0e-4fb0" name="Old Shotgun" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="14" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aafe-14bb-de06-8de8" name="Despoiler Scythe" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="209e-4a37-2924-22ea" name="Skull Cane" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="80ce-a905-069a-af62" name="Sledgehammer" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="634c-f003-5348-5603" name="Hunting Rifle" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="28" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7c5b-e210-8790-245a" name="“Family Heirloom” MP40" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="30" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1fd8-372c-210b-3da9" name="Elegant Rapier" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="30" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="baf8-3d11-070a-f5cd" name="Ruinous Kilĳ" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="22" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="dd87-d607-608d-6845" name="Brazen Chakram" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="26" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ed7f-0619-a752-d1d0" name="Torment Urumi" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="40" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b96b-029a-baac-03c5" name="Assets" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="1f28-fe9d-adec-eed4" name="Preternatural" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="d612-2527-7e89-3fe3" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="136c-5c37-2b67-0773" name="Transcendent Beauty" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="b3b7-afb5-5dbc-a842" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="9851-f8e1-3f3e-7f7f" name="Bloodlust" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="a2d9-f986-3eff-d063" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="9066-00f2-12fb-cdc4" name="Frenzied Feeder" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="6f89-cf06-53a7-9317" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="e979-7767-724f-fe96" name="Nightmare Trinket" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="cf30-ecdf-530e-7a9c" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="3179-cb81-1026-553a" name="Esoteric Tattoos" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="cfcd-c044-2117-80ff" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="8f9b-5150-8c11-7e5c" name="Tenebrous Predator" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="f859-7fca-8088-c176" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="b8bd-7869-5eea-a387" name="Nightmare Predator" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="63bc-db4a-b296-0844" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="6308-0726-4773-83c7" name="Infected Brood" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="7179-6a05-9f6a-1598" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="ab00-d95a-4cf6-27cb" name="Mastery of Shadows" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="3d99-9b6e-a033-7d8f" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="4b51-7135-e834-f723" name="Shadow Play" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="79e4-d322-71a5-4c60" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="6c17-a403-7348-c72f" name="Corpse Mimicry" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="0bff-3401-a8c2-8281" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="92bb-a598-04bb-7139" name="Screaming Necklace" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="ad69-e81b-1749-a69e" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="06c0-3249-37e9-0cc8" name="Verminous Communion" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="1449-df1e-6ce7-4a45" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="34ea-150e-1053-86f3" name="Inhuman Alacrity" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="35" />
+              </costs>
+              <constraints>
+                <constraint id="fdf1-adb5-00d9-a8f0" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0bd9-032d-ea3e-6085" name="Unique assets" hidden="false">
+          <constraints>
+            <constraint id="505c-1eed-97a3-c91b" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+          </constraints>
+          <entryLinks>
+            <entryLink id="4214-4ca4-6995-b721" name="Heart Shaped Phylactery" type="selectionEntry" targetId="0ce0-6817-967b-a47b" hidden="false" />
+            <entryLink id="0a57-a302-b353-5fa0" name="Golden Scepter" type="selectionEntry" targetId="3ed9-c875-365a-3a2b" hidden="false" />
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a8b2-9dcf-02f7-d4b8" name="Blood Boons" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="7f74-dcd4-c76f-03d9" name="Unnatural Grace" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="83c0-f743-6690-d325" type="max" value="4" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="9b86-a900-66d6-13be" name="Unnatural Haste" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="ba32-7835-bed7-5d9b" type="max" value="4" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="4733-b677-7598-8796" name="Unnatural Celerity" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="ba81-d761-0d9a-324b" type="max" value="4" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="8cec-489c-8188-ebcb" name="Unnatural Vigor" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="1767-bf00-71d4-47bb" type="max" value="4" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="5f54-3769-a1a8-f13d" name="Unnatural Resistance" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="633f-b926-1fa3-6092" type="max" value="4" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="4805-0ae6-fe33-abea" name="Stalker" type="model" hidden="false" page="63" publicationId="a21c-395e-03ec-6dcd">
+      <categoryLinks>
+        <categoryLink id="a104-f72b-1786-c712" name="Characters" targetId="7818-f63f-5020-81d1" primary="true" hidden="false" />
+      </categoryLinks>
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="95" />
+      </costs>
+      <profiles>
+        <profile id="a68d-40d6-38ad-411b" name="Stalker" typeId="7379-d42a-a99d-2084" typeName="Character (base profile)" publicationId="a21c-395e-03ec-6dcd" page="63" hidden="false">
+          <characteristics>
+            <characteristic name="Speed" typeId="5c3c-1745-c6f4-e1ab">8</characteristic>
+            <characteristic name="Might" typeId="6c6c-02be-13ea-abc0">4</characteristic>
+            <characteristic name="Finesse" typeId="ac91-114f-a56f-ac40">4</characteristic>
+            <characteristic name="Power" typeId="58ce-692d-f1ed-f0d2">3</characteristic>
+            <characteristic name="Reflex" typeId="285f-f125-f518-8cd9">3</characteristic>
+            <characteristic name="Resilience" typeId="fc73-5c60-9144-ba15">1</characteristic>
+            <characteristic name="Vitality" typeId="aa79-6e65-6e8c-b0da">11</characteristic>
+            <characteristic name="Traits" typeId="9100-254c-435d-4a59">Vampire.</characteristic>
+            <characteristic name="Innate weapons" typeId="5f99-0e22-522c-59bc">Vampire Bite</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7f57-4c26-b304-9733" name="Weapons" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="d74b-6d27-9dd1-0207" name="Flanged Mace" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5593-f366-9774-3544" name="Bloody Machete" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="abaf-9602-b50d-83d9" name="Throwing Knives" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6d24-9b74-98fd-8c40" name="Old Shotgun" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="14" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="14e6-3d4e-1d99-8bbf" name="Despoiler Scythe" type="upgrade" hidden="false" page="66" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4751-9780-dccd-ba77" name="Skull Cane" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9d42-d345-4225-635c" name="Sledgehammer" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1d70-6440-1c33-80cb" name="Hunting Rifle" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="28" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5e96-ff46-66b0-dd69" name="“Family Heirloom” MP40" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="30" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e563-8bfd-4158-aeb4" name="Elegant Rapier" type="upgrade" hidden="false" page="67" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="30" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="17a5-a1cf-55d8-c293" name="Ruinous Kilĳ" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="22" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c86b-3618-24b1-9eef" name="Brazen Chakram" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="26" />
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cda2-afcb-c5ec-5d01" name="Torment Urumi" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="40" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5175-a1a3-0dce-30ec" name="Assets" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="0c92-b075-8c20-1b1e" name="Preternatural" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="0478-b768-7113-d1f4" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="ed6b-efc2-70fd-5303" name="Transcendent Beauty" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="0411-04aa-3166-269f" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="c3d7-a9f4-13ee-27dd" name="Bloodlust" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="b1ab-fcab-7925-4f4e" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="4d70-fa5e-dea3-ed3b" name="Frenzied Feeder" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="1f50-4b6e-91e4-3aaf" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="08ed-c818-9e59-cd97" name="Nightmare Trinket" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="0b17-5506-85b2-c3ba" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="cf8f-a313-57fa-415a" name="Esoteric Tattoos" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="ac2b-19c2-bb4a-3dfa" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="571b-7edc-c10b-1a5f" name="Tenebrous Predator" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="e3e7-2ff4-f1af-d184" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="06cc-5a29-0d73-3d41" name="Nightmare Predator" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="7791-eead-f350-db11" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="1621-c8d3-ec65-b297" name="Infected Brood" type="upgrade" hidden="false" page="74" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="2a62-5f02-c51c-d1fc" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="c330-3619-8c68-9358" name="Mastery of Shadows" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="18" />
+              </costs>
+              <constraints>
+                <constraint id="7ce0-3635-fe2e-df83" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="b256-d8a5-3c3a-0c9b" name="Shadow Play" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="66eb-8f79-b724-20d8" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="a180-7510-a2e2-4af6" name="Corpse Mimicry" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="eb6f-764c-93d8-c5cd" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="f2a4-d4f9-096d-67f4" name="Screaming Necklace" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="fa24-3c6a-415e-73b4" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="b1e0-1801-bf43-f6a2" name="Verminous Communion" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="15" />
+              </costs>
+              <constraints>
+                <constraint id="e9e5-bd3f-8710-1360" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="2c56-c722-e37d-b5b6" name="Inhuman Alacrity" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="35" />
+              </costs>
+              <constraints>
+                <constraint id="9ba8-9a90-0245-b8cc" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2cb4-2330-0558-9286" name="Unique assets" hidden="false">
+          <constraints>
+            <constraint id="a2bf-f68a-f186-44f3" type="max" value="1" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+          </constraints>
+          <entryLinks>
+            <entryLink id="531a-9562-030f-b774" name="Heart Shaped Phylactery" type="selectionEntry" targetId="0ce0-6817-967b-a47b" hidden="false" />
+            <entryLink id="2718-6fd2-b666-4ad2" name="Golden Scepter" type="selectionEntry" targetId="3ed9-c875-365a-3a2b" hidden="false" />
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0391-25dc-7197-f8a1" name="Blood Boons" hidden="false">
+          <selectionEntries>
+            <selectionEntry id="7ee2-8d14-71c2-d831" name="Unnatural Grace" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="5493-9512-bb86-4636" type="max" value="3" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="8ae1-db0c-e6ff-450f" name="Unnatural Haste" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="10" />
+              </costs>
+              <constraints>
+                <constraint id="9b00-c5ee-70fe-5696" type="max" value="3" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="dc1f-08ce-e7b8-9648" name="Unnatural Celerity" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="12" />
+              </costs>
+              <constraints>
+                <constraint id="6443-e5ce-1dda-1492" type="max" value="3" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="f1e6-3cb8-5eea-5f9f" name="Unnatural Vigor" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="72b8-1768-390c-26a3" type="max" value="3" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+            <selectionEntry id="f297-e4ea-0c48-a6ca" name="Unnatural Resistance" type="upgrade" hidden="false" page="65" publicationId="a21c-395e-03ec-6dcd">
+              <costs>
+                <cost name="Influence" typeId="f178-88bc-7258-0c88" value="8" />
+              </costs>
+              <constraints>
+                <constraint id="0607-79d7-33ac-0ea5" type="max" value="3" field="selections" scope="parent" shared="false" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="0ce0-6817-967b-a47b" name="Heart Shaped Phylactery" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="20" />
+      </costs>
+      <constraints>
+        <constraint id="2412-e3e4-e5fe-ea11" type="max" value="1" field="selections" scope="force" shared="true" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="3ed9-c875-365a-3a2b" name="Golden Scepter" type="upgrade" hidden="false" page="68" publicationId="a21c-395e-03ec-6dcd">
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="25" />
+      </costs>
+      <constraints>
+        <constraint id="f8f5-39d9-a745-d519" type="max" value="1" field="selections" scope="force" shared="true" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+      </constraints>
+    </selectionEntry>
+    <selectionEntry id="11fd-9b8b-1d85-56dd" name="Underdweller Kingdom" type="upgrade" hidden="false" page="75" publicationId="a21c-395e-03ec-6dcd">
+      <costs>
+        <cost name="Influence" typeId="f178-88bc-7258-0c88" value="40" />
+      </costs>
+      <constraints>
+        <constraint id="dee7-1b98-027a-460d" type="max" value="1" field="selections" scope="force" shared="true" includeChildSelections="false" includeChildForces="false" percentValue="false" />
+      </constraints>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
